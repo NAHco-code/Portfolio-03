@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>K WILKINSON</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
@@ -29,31 +30,28 @@
           <!-- THIRD BODY WRAPPER  -->
           <div class="off-canvas-content" data-off-canvas-content>
             <!-- HOME PAGE -->
-            <div class="home-page">
+            <div class="home-page" name='home-page'>
 
             <!-- HEADER -->
 
             <!-- Menu Bar -->
-            <div class="title-bar hide-for-large">
-              <div class="title-bar-left">
-                <button class="menu-icon" type="button" data-open="my-info"></button>
-                <span class="title-bar-title">K WILKINSON</span>
-              </div>
-            </div><!-- menu bar end -->
+              <div class="title-bar "><!-- sticky -->
+                <div class="title-bar-left">
+                  <img src='../icons/right-arrow-yellow.png' class='home-icon'><a href="#home-page"></a></img>
+                </div>
+                <div class="title-bar-right">
+                  <button class="menu-icon" type="button" data-open="my-info"></button>
+                </div>
+              </div><!-- menu bar end -->
+
             <!-- Banner -->
             <div class="callout primary header-img">
-              <div class="row column">
-                </h1>
-                <!--<p class="lead">An innovative and
-                judicious approach complement design skills enabling
-                craft and optimization of elegant, user-focused websites
-                and applications.</p> -->
-              </div>
+
             </div><!-- banner end -->
             <!-- header end -->
 
             <!-- PREVIEW SECTION -->
-            <div class="row small-up-3 medium-up-7 large-up-12 "><!---TODO: media query to center div + stretch on wide screen --->
+            <div class="row small-up-3 medium-up-7 large-up-12 margin"><!---TODO: media query to center div + stretch on wide screen --->
               <article class="center article">SOME OF MY LATEST WORK</article>
               <div class="column">
                 <img class="thumbnail" src="../images/covid-woke-landing.png">
@@ -72,19 +70,18 @@
 
 
             <!-- ABOUT PAGE -->
-            <div class="about-page">
+            <div class="about-page margin">
               <div class="row">
                 <!-- <div class="medium-6 columns"> -->
                   <h2>about.</h2>
-                  <h4>About Blurb.</h4>
-                  <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.
-                    Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat
-                    nisl ut dapibus. Mauris iaculis porttitor.
+                  <h4>I'm a full-stack web developer with a passion for UI/UX design.</h4>
+                  <p>I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                    When I'm not coding, you'll find me playing music, painting, gardening or teaching my dog new tricks.
                   </p>
                 <!-- </div> -->
               </div>
 
-              <div class="row small-up-3 medium-up-7 large-up-12 ">
+              <div class="row small-up-3 medium-up-7 large-up-12">
                 <!---TODO: media query to center div + stretch on wide screen --->
                 <div class="column">
                   <img class="thumbnail" src="../images/wedding3.jpg">
@@ -117,7 +114,7 @@
             </div>
 
             <!-- PORTFOLIO PAGE -->
-            <div class="portfolio-page">
+            <div class="portfolio-page margin">
 
               <!-- Portfolio Header section -->
               <div class="row">
@@ -169,7 +166,7 @@
                 </div>
               </div>
 
-              <footer>
+              <!-- <footer>
                 <div class="footer-wrapper-1">
                   <div class="copyright footer-text">
                     &copy; K WILKINSON 2021
@@ -189,20 +186,21 @@
                     <a href='#' class="footer-text">contact</a>
                   </div>
                 </div>
-              </footer>
+              </footer> -->
 
             </div><!-- portfolio page end -->
 
-            <div class="contact-page">
+            <div class="contact-page margin">
               <hr>
               <div class="row">
                 <!-- <div class="medium-6 columns"> -->
                 <h2>contact.</h2>
                 <p></p>
                 <ul class="menu">
-                  <li><a href="#">Github</a></li>
-                  <li><a href="#">Instagram</a></li>
-                  <li><a href="#">LinkedIn</a></li>
+
+                  <li><a href='https://github.com/NAHco-code'><i class="fab fa-github symbol"></i></a></li>
+                  <li><a href="https://www.instagram.com/okwonderkat/"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href='https://www.linkedin.com/in/kwilkinsonxx/'><i class="fab fa-linkedin-in symbol"></i></a></li>
                 </ul>
               </div>
               <!-- <div class="medium-6 columns section"> -->
