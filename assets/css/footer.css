@@ -16,19 +16,20 @@ footer {
     padding-bottom: 25px;
     justify-content: space-between;
     font-size: 8px;
-    border-top: 0.5px groove rgba(250, 244, 244, 0.171);
+    /* border-top: 0.5px groove rgba(250, 244, 244, 0.171); */
+    background-color: white;
 }
 .footer-wrapper-1 {
     display: flex;
     justify-content: space-evenly;
     padding-left: 20px;
+    width: 100%;
 }
-.footer-wrapper-2 {
+/* .footer-wrapper-2 {
     display: flex;
-    /* justify-content: ; */
     flex-direction: column;
     padding-right: 20px;
-}
+} */
 .footer-text,
 a.footer-text {
     display: flex;

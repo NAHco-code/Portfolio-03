@@ -221,6 +221,7 @@ h5 {
   position: relative;
   top: -3px;
   z-index: 0;
+
 }
 .position {
   position: static;
@@ -251,4 +252,13 @@ h3 {
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
 
+}
+
+footer {
+  position: relative;
+  top: -120px;
+  background-image: url(../images/cloud-fade-white.JPG);
+  background-size: cover;
+  height: 50vw;
+  z-index: 15;
 }
