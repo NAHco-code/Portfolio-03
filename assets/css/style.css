@@ -1,32 +1,90 @@
-* {
-  font-family: 'Montserrat', sans-serif;
+/* GLOBAL */
+
+
+/* * {
+  color: white;
+} */
+body {
+  width: 100%;
 }
 
-.margin {
-  margin: 0 20px 0 20px;
+.body-background {
+  background-color: black !important;
+}
+.nav {
+  height: 3em;
 }
 
-/*** HOME PAGE HEADER ***/
+.padding {
+  padding: 0 10px 0 10px;
+  margin: auto;
+  border: none;
+  box-shadow: none;
+}
+
+/*** HOME PAGE ***/
 
  .sticky { /* not working */
-  background-position: top;
+  /* background-position: top;
   background-attachment: fixed;
   position: sticky !important;
-  top: 0 !important;
+  top: 0 !important; */
+}
+
+.home-page {
+  color: white;
 }
 
 .home-icon {
-  height: 40px;
-  width: 40px;
-  z-index: 100;
+  height: 2em;
+  width: 2em;
+  z-index: 20;
+  margin: 0 0 0 0.5em;
+}
+.menu-icon {
+  height: 3em;
+  width: 1.25em;
+  z-index: 20;
+  margin: 0.5em 0.5em 0 1em;
 }
 
 .header-img {
-    background-image: url(../images/portfolio-hero.JPG);
+    background-image: url(../images/portfolio-hero-fade.JPG);
     background-size: cover;
-    height: 400px;
-    /* margin-top: 50px; */
+    height: 50vw;
+    margin-bottom: 0;
+
 }
+/* .gradient-img {
+  background-image: url(../images/yellow-black-gradient-controlled.JPG);
+  background-size: cover;
+  height: 10em;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 110%;
+} */
+.overlay {
+  position: relative;
+  top: -40px;
+}
+
+.outline {
+  border-top: 0.5px solid white;
+  border-bottom: none;
+  padding: 25px 7px 20px 7px;
+  margin: 5px 7px 5px 7px;
+  z-index: 4;
+}
+.preview-sec-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* .line {
+  display: flex;
+  width: auto;
+} */
+
 
 h2 {
   font-family: 'Montserrat', sans-serif;
@@ -35,21 +93,162 @@ h2 {
   letter-spacing: -0.06em;
 }
 
-h4 {
+.preview-sec-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.75em;
+  font-size: 1em;
+  margin: auto;
+  padding: 0 3% 1.75% 3%;
+  width: 31%;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  font-weight: 600 !important;
+}
+.preview-sec-title {
+  /* margin-top: 20px; */
+  position: relative;
+  bottom: -2em;
+  background-color: black;
 }
 
-h5,
-.center {
+.preview-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: auto;
-  width: 50%;
-  padding: 10px;
-  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin-bottom: 1%;
+
+}
+.screen {
+  background-color: rgba(255, 255, 255, 0.829);
+  background-position: contain;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 95%;
+  position: absolute;
+  top: 0;
+  margin: 0 13% 0 13%;
+  width: 64%;
+  z-index: 2;
+  align-items: flex-start;
+  text-align: justify;
+  padding-top: 7px;
+}
+span {
+  color: black;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: inline-block;
+  flex-shrink: 3;
+  width: 5.5em;
+  font-size: 1.45em;
+  word-wrap: break-word;
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
 .thumbnail {
+  display: flex;
+  margin: auto;
+}
+
+.feat-app,
+.feat-about {
   border-radius: 5px;
   border-width: 6px;
   border-color: rgba(250, 250, 250, 0.863);
+  z-index: 1;
+  margin-bottom: 5%;
+}
+h5 {
+  margin: auto;
+  width: 100%;
+  padding: 0 0 1em 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* h4 {
+
+} */
+.fade {
+  z-index: 3;
+  /* position: relative;
+  top: -41px; */
+}
+
+/* ABOUT PAGE */
+.about-page {
+  background-color: white;
+  color: black;
+  position: relative;
+  top: -41px;
+
+}
+
+.fade2 {
+  position: relative;
+  top: -42px;
+}
+/* PORTFOLIO PAGE */
+.portfolio-page {
+  color: white;
+}
+.first-feat {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 3%;
+}
+.sec-feat {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* .long-screen {
+
+} */
+
+.fade3 {
+  z-index: 10;
+}
+
+/* CONTACT PAGE */
+.contact-page {
+  color: black;
+  background-color: white;
+  position: relative;
+  top: -3px;
+  z-index: 0;
+}
+.position {
+  position: static;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+.contact-baby {
+  /* shadow */
+}
+.follow-menu {
+  display: flex;
+  width: 48%;
+  position: absolute;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+.follow-icon {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin: 30px 25px;
+  /* padding: 10px 3px; */
+}
+.button-send-email {
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+
 }

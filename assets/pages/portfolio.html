@@ -8,6 +8,9 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/footer.css">
   </head>
@@ -28,54 +31,71 @@
             </div>
           </div> -->
           <!-- THIRD BODY WRAPPER  -->
-          <div class="off-canvas-content" data-off-canvas-content>
+          <div class="off-canvas-content body-background" data-off-canvas-content>
             <!-- HOME PAGE -->
             <div class="home-page" name='home-page'>
 
-            <!-- HEADER -->
+              <!-- HEADER -->
 
-            <!-- Menu Bar -->
-              <div class="title-bar "><!-- sticky -->
+              <!-- Menu Bar -->
+              <div class="title-bar nav"><!-- sticky -->
                 <div class="title-bar-left">
-                  <img src='../icons/right-arrow-yellow.png' class='home-icon'><a href="#home-page"></a></img>
+                  <img src='../icons/right-arrow-round.png' class='home-icon'><a href="#home-page"></a></img>
                 </div>
                 <div class="title-bar-right">
                   <button class="menu-icon" type="button" data-open="my-info"></button>
                 </div>
               </div><!-- menu bar end -->
 
-            <!-- Banner -->
-            <div class="callout primary header-img">
+              <!-- Banner -->
+              <div class="callout primary header-img">
 
-            </div><!-- banner end -->
-            <!-- header end -->
+              </div><!-- banner end -->
+              <!-- header end -->
+              <!-- <div class='gradient-img'></div> -->
+              <!-- PREVIEW SECTION -->
+              <img src='../images/header-img-mirror.JPG'>
+              <div class='overlay'>
+                <div class="row preview-sec-header-container padding">
+                  <div class="line"></div>
+                  <h4 class="row preview-sec-title"> SOME OF MY LATEST WORK</h4>
+                  <div class="line"></div>
+                </div>
 
-            <!-- PREVIEW SECTION -->
-            <div class="row small-up-3 medium-up-7 large-up-12 margin"><!---TODO: media query to center div + stretch on wide screen --->
-              <article class="center article">SOME OF MY LATEST WORK</article>
-              <div class="column">
-                <img class="thumbnail" src="../images/covid-woke-landing.png">
-                <h5>COVID WOKE</h5>
-              </div>
-              <div class="column">
-                <img class="thumbnail" src="../images/quiz_load.png">
-                <h5>JS QUIZ</h5>
-              </div>
-              <div class="column">
-                <img class="thumbnail" src="../images/weatherDash.png">
-                <h5>WEATHER DASHBOARD</h5>
-              </div>
-            </div><!-- preview section end -->
-            </div><!-- home page end -->
-
+                <div class="row small-up-2 medium-up-3 large-up-4 padding outline"><!---TODO: media query to center div + stretch on wide screen --->
+                  <div class="column preview-container">
+                    <div class="screen thumbnail-title"><span>COVID WOKE</span></div>
+                    <img class="feat-app thumbnail" src="../images/covid-woke-landing.png">
+                    <!-- <h5 class='thumbnail-title'></h5> -->
+                  </div>
+                  <div class="column preview-container">
+                    <div class="screen thumbnail-title"><span>JAVASCRIPT QUIZ</span></div>
+                    <img class="feat-app thumbnail" src="../images/quiz_load.png">
+                    <!-- <h5 class='thumbnail-title'></h5> -->
+                  </div>
+                  <div class="column preview-container">
+                    <div class="screen thumbnail-title"><span>WEATHER DASHBOARD</span></div>
+                    <img class="feat-app thumbnail" src="../images/weatherDash.png">
+                    <!-- <h5 class='thumbnail-title'></h5> -->
+                  </div>
+                  <div class="column preview-container">
+                    <div class="screen thumbnail-title"><span>COVID WOKE</span></div>
+                    <img class="feat-app thumbnail" src="../images/covid-woke-landing.png">
+                    <!-- <h5 class='thumbnail-title'></h5> -->
+                  </div>
+                </div><!-- preview section end -->
+                <img class='fade' src='../images/black-white-fade-WHITE.PNG'>
+              </div><!-- home page end -->
+            </div>
 
             <!-- ABOUT PAGE -->
-            <div class="about-page margin">
-              <div class="row">
+            <div class="about-page">
+              <div class="row padding">
                 <!-- <div class="medium-6 columns"> -->
                   <h2>about.</h2>
-                  <h4>I'm a full-stack web developer with a passion for UI/UX design.</h4>
-                  <p>I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                  <!-- <h4>I'm a full-stack web developer with a passion for UI/UX design.</h4> -->
+                  <h4>I'm a full-stack web developer with a passion for UI/UX design born and raised in Columbus, Ohio.</h4>
+                  <p>
                     When I'm not coding, you'll find me playing music, painting, gardening or teaching my dog new tricks.
                   </p>
                 <!-- </div> -->
@@ -84,45 +104,51 @@
               <div class="row small-up-3 medium-up-7 large-up-12">
                 <!---TODO: media query to center div + stretch on wide screen --->
                 <div class="column">
-                  <img class="thumbnail" src="../images/wedding3.jpg">
+                  <img class="thumbnail feat-about" src="../images/wedding3.jpg">
                   <!-- <h5></h5> -->
                 </div>
                 <div class="column">
-                  <img class="thumbnail" src="../images/content-img-women-family.jpg">
+                  <img class="thumbnail feat-about" src="../images/content-img-women-family.jpg">
                   <!-- <h5></h5> -->
                 </div>
                 <div class="column">
-                  <img class="thumbnail" src="../images/portfolio2resized.jpg">
+                  <img class="thumbnail feat-about" src="../images/portfolio2resized.jpg">
                   <!-- <h5></h5> -->
                 </div>
 
                 <div class="column">
-                  <img class="thumbnail" src="../images/portfolio-art-soul-dust.jpg">
+                  <img class="thumbnail feat-about" src="../images/portfolio-art-soul-dust.jpg">
                   <h5></h5>
                 </div>
 
                 <div class="column">
-                  <img class="thumbnail" src="../images/portfolio-art-devour.jpg">
+                  <img class="thumbnail feat-about" src="../images/portfolio-art-devour.jpg">
                   <h5></h5>
                 </div>
 
                 <div class="column">
-                  <img class="thumbnail dani-and-i" src="../images/d-n-me-vector.jpg">
+                  <img class="thumbnail  feat-about dani-and-i" src="../images/d-n-me-vector.jpg">
                   <h5></h5>
                 </div>
               </div>
             </div>
-
+            <img class='overlay fade fade2' src='../images/white-black-fade.PNG'>
             <!-- PORTFOLIO PAGE -->
-            <div class="portfolio-page margin">
+            <div class="portfolio-page padding">
 
               <!-- Portfolio Header section -->
               <div class="row">
                 <!-- <div class="medium-6 columns"> -->
                 <h2>portfolio.</h2>
-                <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.
-                  Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat
-                  nisl ut dapibus. Mauris iaculis porttitor.
+                <p>I enjoy an innovative and
+                judicious approach when solving problems. Developed design skills enable
+                craft and optimization of elegant, user-focused websites
+                and applications.</p>
+                <p>Backgrounds in fine art, social work and
+                hospitality industries, provide in-depth knowledge
+                of dynamic team collaboration, demanding clients,
+                sensitive information & business objectives, as well as
+                sales, marketing and design.
                 </p>
                 <!-- </div> -->
               </div>
@@ -130,38 +156,38 @@
               <!-- Portfolio Thumbnail Section -->
               <div class="row small-up-2 medium-up-3 large-up-4 ">
                 <!---TODO: media query to center div + stretch on wide screen --->
-                <div class="column">
-                  <img class="thumbnail" src="../images/covid-woke-landing.png">
-                  <img class="thumbnail" src="../images/covid-woke-results.png">
+                <div class="feat-app column long-screen">
+                  <img class="thumbnail first-feat" src="../images/covid-woke-landing.png">
+                  <img class="thumbnail sec-feat" src="../images/covid-woke-results.png">
                   <h5>COVID WOKE</h5>
                 </div>
-                <div class="column">
-                  <img class="thumbnail" src="../images/quiz_load.png">
-                  <img class="thumbnail" src="../images/quiz_interface.png">
+                <div class="feat-app column long-screen">
+                  <img class="thumbnail first-feat" src="../images/quiz_load.png">
+                  <img class="thumbnail sec-feat" src="../images/quiz_interface.png">
                   <h5>JS QUIZ</h5>
                 </div>
-                <div class="column">
-                  <img class="thumbnail" src="../images/weatherDash.png">
-                  <img class="thumbnail" src="../images/weatherDash.png">
+                <div class="feat-app column long-screen">
+                  <img class="thumbnail first-feat" src="../images/weatherDash.png">
+                  <img class="thumbnail sec-feat" src="../images/weatherDash.png">
                   <h5>WEATHER DASHBOARD</h5>
                 </div>
               </div>
 
               <div class="row small-up-2 medium-up-3 large-up-4 ">
                 <!---TODO: media query to center div + stretch on wide screen --->
-                <div class="column">
-                  <img class="thumbnail" src="../images/covid-woke-landing.png">
-                  <img class="thumbnail" src="../images/covid-woke-results.png">
+                <div class="feat-app column long-screen">
+                  <img class="thumbnail first-feat" src="../images/covid-woke-landing.png">
+                  <img class="thumbnail sec-feat" src="../images/covid-woke-results.png">
                   <h5>COVID WOKE</h5>
                 </div>
-                <div class="column">
-                  <img class="thumbnail" src="../images/quiz_load.png">
-                  <img class="thumbnail" src="../images/quiz_interface.png">
+                <div class="feat-app column long-screen">
+                  <img class="thumbnail first-feat" src="../images/quiz_load.png">
+                  <img class="thumbnail sec-feat" src="../images/quiz_interface.png">
                   <h5>JS QUIZ</h5>
                 </div>
-                <div class="column">
-                  <img class="thumbnail" src="../images/weatherDash.png">
-                  <img class="thumbnail" src="../images/weatherDash.png">
+                <div class="feat-app column long-screen">
+                  <img class="thumbnail first-feat" src="../images/weatherDash.png">
+                  <img class="thumbnail sec-feat" src="../images/weatherDash.png">
                   <h5>WEATHER DASHBOARD</h5>
                 </div>
               </div>
@@ -189,33 +215,39 @@
               </footer> -->
 
             </div><!-- portfolio page end -->
+            <img class='fade3' src='../images/black-white-fade-WHITE.PNG'>
 
-            <div class="contact-page margin">
-              <hr>
-              <div class="row">
+            <div class="contact-page padding">
+
+              <div class="row position">
                 <!-- <div class="medium-6 columns"> -->
                 <h2>contact.</h2>
-                <p></p>
-                <ul class="menu">
+                <h3>How would you know the difference between the dream world and real world?</h3>
+                <ul class="menu follow-menu">
 
-                  <li><a href='https://github.com/NAHco-code'><i class="fab fa-github symbol"></i></a></li>
-                  <li><a href="https://www.instagram.com/okwonderkat/"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href='https://www.linkedin.com/in/kwilkinsonxx/'><i class="fab fa-linkedin-in symbol"></i></a></li>
+                  <li ><img class='follow-icon' src='../images/instagram-line.png' href="https://www.instagram.com/okwonderkat/"></li>
+                  <li ><img class='follow-icon' src='../images/twitter.png' href='https://twitter.com/NAHco_code'></li>
+                  <li ><img class='follow-icon' src='../images/linkedin-gradient-break.png' href='https://www.linkedin.com/in/kwilkinsonxx/'></li>
+                  <li><img class='follow-icon' src='../images/github-purple.png' href='https://github.com/NAHco-code'></li>
                 </ul>
+                <img class='contact-baby' src='../images/contact-baby-vector.PNG'>
+                <h3>Send me an email</h3>
+                <p></p>
               </div>
+
               <!-- <div class="medium-6 columns section"> -->
               <div class="row">
                 <label>Name
-                  <input type="text" placeholder="Name">
+                  <input type="text" placeholder="">
                 </label>
                 <label>Email
-                  <input type="text" placeholder="Email">
+                  <input type="text" placeholder="">
                 </label>
                 <label>
                   Message
-                  <textarea placeholder="holla at a designerd"></textarea>
+                  <textarea placeholder=""></textarea>
                 </label>
-                <input type="submit" class="button expanded" value="Submit">
+                <input type="submit" class="button button-send-email" value="Submit">
               </div>
               <!-- </div> -->
             </div>
