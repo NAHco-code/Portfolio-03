@@ -1,0 +1,49 @@
+#covid1 {
+    background-image: url(../images/CovidWoke/covid-woke-landing.png);
+    background-size: cover;
+    z-index:0;
+}
+#covid2 {
+    background-image: url(../images/CovidWoke/covid-woke-results.png);
+    background-size: cover;
+}
+#directory1 {
+    background-image: url(../images/EmployeeDirectory/employee-directory.PNG);
+    background-size: cover;
+}
+#directory2 {
+    background-image: url(../images/EmployeeDirectory/employee-directory.PNG);
+    background-size: cover;
+}
+#review1 {
+    background-image: url(../images/LooReview/login.PNG);
+    background-size: cover;
+}
+#review2 {
+    background-image: url(../images/LooReview/selected+associated-reviews.PNG);
+    background-size: cover;
+}
+#fitness1 {
+    background-image: url(../images/FitnessTracker/homepage.png);
+    background-size: cover;
+}
+#fitness2 {
+    background-image: url(../images/FitnessTracker/dashboard.png);
+    background-size: cover;
+}
+#quiz1 {
+    background-image: url(../images/apps/quiz_load.png);
+    background-size: cover;
+}
+#quiz2 {
+    background-image: url(../images/apps/quiz_interface.png);
+    background-size: cover;
+}
+#weather1 {
+    background-image: url(../images/apps/weatherDash.png);
+    background-size: cover;
+}
+#weather2 {
+    background-image: url(../images/apps/weatherDash.png);
+    background-size: cover;
+}
