@@ -1,20 +1,73 @@
 /* GLOBAL */
+* {
+  box-sizing: border-box;
+  /* z-index: -10; */
+}
 
-
-/* * {
-  color: white;
-} */
 body {
   width: 100%;
+
 }
 
 .body-background {
   background-color: black !important;
 }
-.nav {
-  height: 3em;
+.sticky {
+  /* position: -webkit-sticky; */
+  position: fixed;
+  top: -1px;
+  z-index: 1;
 }
-
+.nav {
+  height: 65px;
+  display: flex;
+  width: 100vw;
+}
+.nav-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: auto; */
+}
+.nav-1 {
+  display: flex;
+  margin-left: 25px;
+  width: 20%;
+  height: 70%;
+}
+.nav-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-top: 12px;
+  width: 75%;
+  height: 70%;
+}
+.nav-3 {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 13px;
+  width: 40%;
+  height: 70%;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-left: 15px;
+  margin-right: 12px; */
+  color: white;
+}
+.nav-icons {
+  width: 25px;
+  height: 25px;
+  /* padding: 3px; */
+  margin-left: 20px;
+  margin-right: 15px;
+  display: flex;
+}
 .padding {
   padding: 0 10px 0 10px;
   margin: auto;
@@ -36,24 +89,25 @@ body {
 }
 
 .home-icon {
-  height: 2em;
-  width: 2em;
-  z-index: 20;
-  margin: 0 0 0 0.5em;
+  height: 50px;
+  width: 50px;
+  /* z-index: 20; */
+  margin: 0 1.5% 0 1.5%;
+  transition: .5s; /* not working */
 }
-.menu-icon {
+/* .menu-icon {
   height: 3em;
   width: 1.25em;
-  z-index: 20;
+
   margin: 0.5em 0.5em 0 1em;
-}
+} */
 
 .header-img {
-    background-image: url(../images/portfolio-hero-fade.JPG);
-    background-size: cover;
-    height: 50vw;
-    margin-bottom: 0;
-
+  background-image: url(../images/main/portfolio-hero-fade.JPG);
+  background-size: cover;
+  height: 50vw;
+  margin-bottom: 0;
+  margin-top: 64px;
 }
 /* .gradient-img {
   background-image: url(../images/yellow-black-gradient-controlled.JPG);
@@ -73,7 +127,7 @@ body {
   border-bottom: none;
   padding: 25px 7px 20px 7px;
   margin: 5px 7px 5px 7px;
-  z-index: 4;
+  /* z-index: 4; */
 }
 .preview-sec-header-container {
   display: flex;
@@ -102,6 +156,7 @@ h2 {
   display: inline-flex;
   flex-wrap: nowrap;
   font-weight: 600 !important;
+  /* transition: .5s; */
 }
 .preview-sec-title {
   /* margin-top: 20px; */
@@ -109,6 +164,8 @@ h2 {
   bottom: -2em;
   background-color: black;
 }
+/*== tool tips ==*/
+
 
 .preview-container {
   display: flex;
@@ -130,10 +187,26 @@ h2 {
   top: 0;
   margin: 0 13% 0 13%;
   width: 64%;
-  z-index: 2;
+  /* z-index: 2; */
   align-items: flex-start;
   text-align: justify;
   padding-top: 7px;
+  transition: .5s; /*hover-effect */
+}
+.screen::before {
+  transition: .5s;
+  transform: scale(.9);
+  background: #ff0000;
+  /* z-index: -1; */
+}
+.screen:hover::before {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #ff0000;
+}
+.screen:hover {
+  background-color: rgba(255, 255, 255, 0.897);
+  box-shadow: 0 0 30px #000000;
+  text-shadow: 0 0 3px #770000;
 }
 span {
   color: black;
@@ -153,12 +226,27 @@ span {
   margin: auto;
 }
 
+.feat-app::before {
+  transition: .5s;
+  transform: scale(.9);
+  background: #fff2a9;
+}
+.feat-app:hover::before {
+  transform: scale(1.2);
+  box-shadow: 0 2 15px #fff2a9;
+}
+.feat-app:hover {
+  /* color: #00eeff; */
+  box-shadow: 0 0 20px #fff2a9;
+  text-shadow: 0 0 20px #fff2a9;
+}
+
 .feat-app,
 .feat-about {
   border-radius: 5px;
   border-width: 7px;
   border-color: rgba(250, 250, 250, 0.863);
-  z-index: 1;
+  /* z-index: 1; */
   margin-bottom: 5%;
 }
 h5 {
@@ -175,7 +263,7 @@ h5 {
 
 } */
 .fade {
-  z-index: 3;
+  /* z-index: 3; */
   /* position: relative;
   top: -41px; */
 }
@@ -211,7 +299,7 @@ h5 {
 } */
 
 .fade3 {
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 /* CONTACT PAGE */
@@ -220,7 +308,7 @@ h5 {
   background-color: white;
   position: relative;
   top: -3px;
-  z-index: 0;
+  /* z-index: 0; */
 
 }
 .position {
@@ -232,7 +320,7 @@ h3 {
 
 }
 .contact-baby {
-  /* shadow */
+
 }
 .follow-menu {
   display: flex;
@@ -258,8 +346,8 @@ h3 {
 footer {
   position: relative;
   top: -120px;
-  background-image: url(../images/cloud-fade-white.JPG);
+  background-image: url(../images/main/cloud-fade-white.JPG);
   background-size: cover;
   height: 50vw;
-  z-index: 15;
+
 }
