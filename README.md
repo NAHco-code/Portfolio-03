@@ -8,23 +8,28 @@ Blurb. Description. Features.
 
 - [Description](#portfolio-03)
 - [Contributing](#contributing)
+- [Technologies](#tech)
 - [Visuals](#visuals)
 - [Contact Me](#questions)
 - [License](#license)
 
 ## Contributing
 
- K.WILKINSON
- Foundation
-    - html starter template
+k.wilkinson
+
+### Tech
+
+The Foundation framework
 
 ## Visuals
 
-![screenshot](./assets/images/)
+![screenshot](./assets/images/proj-screenshots/home.PNG)
+![screenshot](./assets/images/proj-screenshots/about.PNG)
+![screenshot](./assets/images/proj-screenshots/portfolio.PNG)
+![screenshot](./assets/images/proj-screenshots/contact-header.PNG)
+![screenshot](./assets/images/proj-screenshots/contact-footer.PNG)
 
-[ViewLive](https://nahco-code.github.io/Portfolio-03/)
-
-[ViewCode](https://github.com/NAHco-code/Portfolio-03.git)
+[ViewLive](https://nahco-code.github.io/Portfolio-03/) -  - [ViewCode](https://github.com/NAHco-code/Portfolio-03.git)
 
 ## Questions?
 
