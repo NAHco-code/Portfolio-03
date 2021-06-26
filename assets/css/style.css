@@ -1,14 +1,11 @@
 /* GLOBAL */
 * {
   box-sizing: border-box;
-  /* z-index: -10; */
 }
 
 body {
   width: 100%;
-
 }
-
 .body-background {
   background-color: black !important;
 }
@@ -87,7 +84,6 @@ body {
 .home-page {
   color: white;
 }
-
 .home-icon {
   height: 50px;
   width: 50px;
@@ -95,13 +91,6 @@ body {
   margin: 0 1.5% 0 1.5%;
   transition: .5s; /* not working */
 }
-/* .menu-icon {
-  height: 3em;
-  width: 1.25em;
-
-  margin: 0.5em 0.5em 0 1em;
-} */
-
 .header-img {
   background-image: url(../images/main/portfolio-hero-fade.JPG);
   background-size: cover;
@@ -109,19 +98,10 @@ body {
   margin-bottom: 0;
   margin-top: 64px;
 }
-/* .gradient-img {
-  background-image: url(../images/yellow-black-gradient-controlled.JPG);
-  background-size: cover;
-  height: 10em;
-  margin-top: 0;
-  margin-bottom: 0;
-  width: 110%;
-} */
 .overlay {
   position: relative;
   top: -40px;
 }
-
 .outline {
   border-top: 0.5px solid white;
   border-bottom: none;
@@ -134,12 +114,6 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
 }
-/* .line {
-  display: flex;
-  width: auto;
-} */
-
-
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
@@ -164,7 +138,6 @@ h2 {
   bottom: -2em;
   background-color: black;
 }
-/*== tool tips ==*/
 
 
 .preview-container {
@@ -262,9 +235,6 @@ h5 {
   flex-wrap: wrap;
   justify-content: center;
 }
-/* h4 {
-
-} */
 .fade {
   /* z-index: 3; */
   /* position: relative;
@@ -370,13 +340,6 @@ h5 {
   height: 150px;
   width: 100%;
 }
-/* .long-screen {
-
-} */
-
-.fade3 {
-  /* z-index: 10; */
-}
 
 /* CONTACT PAGE */
 .contact-page {
@@ -384,19 +347,12 @@ h5 {
   background-color: white;
   position: relative;
   top: -3px;
-  /* z-index: 0; */
-
 }
 .position {
   position: static;
 }
-
 h3 {
   font-family: 'Montserrat', sans-serif;
-
-}
-.contact-baby {
-
 }
 .follow-menu {
   display: flex;
@@ -413,10 +369,13 @@ h3 {
   flex-grow: 3;
   /* padding: 10px 3px; */
 }
+.email-message {
+  height: 100px;
+}
+
 .button-send-email {
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 footer {
@@ -425,5 +384,4 @@ footer {
   background-image: url(../images/main/cloud-fade-white.JPG);
   background-size: cover;
   height: 50vw;
-
 }
