@@ -16,8 +16,21 @@ h2 {
   letter-spacing: -0.06em;
   padding-top: 100px;
 }
-.body-background {
-  background-color: black !important;
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+h5 {
+  color: black;
+  background-color: rgba(216, 205, 205, 0.89);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-shrink: 3;
+  width: 100%;
+  font-size: 1.45em;
+  word-wrap: break-word;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  /* position: relative; */
 }
 h5 {
   margin: auto;
@@ -29,8 +42,31 @@ h5 {
   flex-wrap: wrap;
   justify-content: center;
 }
+span {
+  color: black;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: inline-block;
+  flex-shrink: 3;
+  width: 5.5em;
+  font-size: 1.45em;
+  word-wrap: break-word;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
 p {
   padding: 10px 20px 10px 7px;
+}
+footer {
+  position: relative;
+  top: -120px;
+  background-image: url(../images/main/cloud-fade-white.JPG);
+  background-size: cover;
+  height: 50vw;
+}
+
+.body-background {
+  background-color: black !important;
 }
 .sticky {
   /* position: -webkit-sticky; */
@@ -138,7 +174,6 @@ p {
   border-bottom: none;
   padding: 25px 7px 20px 7px;
   margin: 5px 7px 5px 7px;
-  /* z-index: 4; */
 }
 .preview-sec-header-container {
   display: flex;
@@ -166,7 +201,7 @@ p {
   margin-top: 6px;
   position: static;
   background-color: black;
-   display: flex;
+  display: flex;
   /*justify-content: center; */
 }
 .preview-container {
@@ -210,18 +245,6 @@ p {
   box-shadow: 0 0 30px #000000;
   text-shadow: 0 0 3px #770000;
 }
-span {
-  color: black;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  display: inline-block;
-  flex-shrink: 3;
-  width: 5.5em;
-  font-size: 1.45em;
-  word-wrap: break-word;
-  font-family: 'Big Shoulders Stencil Text', cursive;
-}
 .thumbnail {
   display: flex;
   margin: auto;
@@ -240,7 +263,6 @@ span {
   box-shadow: 0 0 10px #fff2a9;
   text-shadow: 0 0 20px #fff2a9;
 }
-
 .feat-app,
 .feat-about {
   border-radius: 5px;
@@ -288,7 +310,6 @@ span {
   justify-content: center;
   position: relative;
 }
-
 .port-screen {
   background-color: rgba(22, 22, 22, 0.692);
   background-position: contain;
@@ -334,20 +355,6 @@ span {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-
-h5 {
-  color: black;
-  background-color: rgba(216, 205, 205, 0.89);
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-shrink: 3;
-  width: 100%;
-  font-size: 1.45em;
-  word-wrap: break-word;
-  font-family: 'Big Shoulders Stencil Text', cursive;
-  /* position: relative; */
-}
 .first-feat {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -372,9 +379,6 @@ h5 {
 .position {
   position: static;
 }
-h3 {
-  font-family: 'Montserrat', sans-serif;
-}
 .follow-menu {
   display: flex;
   width: 48%;
@@ -396,12 +400,4 @@ h3 {
 .button-send-email {
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
-}
-
-footer {
-  position: relative;
-  top: -120px;
-  background-image: url(../images/main/cloud-fade-white.JPG);
-  background-size: cover;
-  height: 50vw;
 }

@@ -1,8 +1,8 @@
-# Portfolio 03
+# Professional Portfolio
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 
-Blurb. Description. Features.
+Full stack web developer with a passion for UX/UI design, eager to contribute developed knowledge in a front-end role. An innovative and judicious approach complement design skills enabling craft and optimization of elegant, user-focused websites and applications. Backgrounds in fine art, social work and hospitality industries, provide in-depth knowledge of dynamic team collaboration in demanding environments, difficult clients, sensitive information & business objectives, as well as sales, marketing, and design.
 
 ## Table of Contents
 
