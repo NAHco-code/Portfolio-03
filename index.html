@@ -20,7 +20,7 @@
     <!-- *** code src: foundation ui - html template *** -->
 
     <!-- INTERNAL BODY WRAPPER -->
-      <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper" id='home-page'>
         <!-- INNER INTERNAL BODY WRAPPER -->
         <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
@@ -36,7 +36,7 @@
           <!-- THIRD BODY WRAPPER  -->
           <div class="off-canvas-content body-background" data-off-canvas-content>
             <!-- HOME PAGE -->
-            <div class="home-page" id='home-page'>
+            <div class="home-page">
 
               <!-- HEADER -->
 
@@ -77,15 +77,15 @@
               <!-- header end -->
 
               <!-- PREVIEW SECTION -->
-              <img src='./assets/images/main/header-img-mirror.JPG'>
-              <div class='overlay'>
+              <!-- <img class='header-mirror' src='./assets/images/main/header-img-mirror.JPG'> -->
+              <div class='header-mirror overlay'>
                 <div class="row preview-sec-header-container padding">
                   <div class="line"></div>
                   <h4 class="row preview-sec-title"> SOME OF MY LATEST WORK</h4>
                   <div class="line"></div>
                 </div>
 
-                <div class="row small-up-2 medium-up-3 large-up-4 padding outline"><!---TODO: media query to center div + stretch on wide disp --->
+                <div class="row small-up-2 medium-up-3 large-up-4 padding outline preview-div"><!---TODO: media query to center div + stretch on wide disp --->
                   <div class="column preview-container">
                     <a href='https://github.com/mkotte/COVIDwoke.git' target='_blank'><div title='View Code' class="screen thumbnail-title"><span>COVID WOKE</span></div></a>
                     <a href='https://mkotte.github.io/COVIDwoke/' target='_blank' ><img title='View Live' class="feat-app thumbnail" src="./assets/images/CovidWoke/covid-woke-landing.png"></a>
@@ -108,6 +108,7 @@
                 </div><!-- preview section end -->
                 <img class='fade' src='./assets/images/main/black-white-fade-WHITE.PNG'>
               </div><!-- home page end -->
+
             </div>
 
             <!-- ABOUT PAGE -->
@@ -325,6 +326,5 @@
     <script>
       $(document).foundation();
     </script>
-    <script src="../js/script.js"></script>
   </body>
 </html>
