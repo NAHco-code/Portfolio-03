@@ -10,6 +10,10 @@ h1 {
   padding: 0 0 0 20px;
 }
 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  letter-spacing: -0.06em;
   padding-top: 100px;
 }
 .body-background {
@@ -26,7 +30,7 @@ h5 {
   justify-content: center;
 }
 p {
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 7px;
 }
 .sticky {
   /* position: -webkit-sticky; */
@@ -35,7 +39,6 @@ p {
   z-index: 1;
 }
 .nav {
-  height: 65px;
   display: flex;
   width: 100vw;
 }
@@ -116,18 +119,19 @@ p {
   height: 50vw;
   margin-bottom: 0;
   margin-top: 64px;
+  /* position: static; */
 }
 .header-mirror {
   background-image: url(../images/main/header-mirror-fullsize.JPG);
   background-size: cover;
   height: 50vw;
   margin: 0;
-  position: relative;
-  top: -50px;
+  position: static;
+  top: 0px;
 }
 .overlay {
-  position: relative;
-  top: -40px;
+  /* position: relative; */
+  /* top: -40px; */
 }
 .outline {
   border-top: 0.5px solid white;
@@ -139,32 +143,31 @@ p {
 .preview-sec-header-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
-  font-weight: 700;
-  letter-spacing: -0.06em;
-}
-
-/* .preview-div {
-  margin-top: 100px;
-} */
 .preview-sec-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   margin: auto;
-  padding: 0 3% 1.75% 3%;
-  width: 31%;
-  display: inline-flex;
-  flex-wrap: nowrap;
+  padding: 2px;
+  width: 34vw;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
   font-weight: 600 !important;
   position: relative;
-  bottom: -2em;
+  bottom: -0.75em;
   background-color: black;
   margin-top: 150px;
   /* transition: .5s; */
+}
+.preview-div {
+  margin-top: 6px;
+  position: static;
+  background-color: black;
+   display: flex;
+  /*justify-content: center; */
 }
 .preview-container {
   display: flex;
@@ -173,7 +176,7 @@ h2 {
   margin: auto;
   position: relative;
   margin-bottom: 1%;
-
+  margin-top: 1.5%;
 }
 .screen {
   background-color: rgba(255, 255, 255, 0.829);
@@ -184,7 +187,7 @@ h2 {
   height: 95%;
   position: absolute;
   top: 0;
-  margin: 0 13% 0 13%;
+  margin: 0 12% 0 11.5%;
   width: 64%;
   /* z-index: 2; */
   align-items: flex-start;
@@ -219,12 +222,10 @@ span {
   word-wrap: break-word;
   font-family: 'Big Shoulders Stencil Text', cursive;
 }
-
 .thumbnail {
   display: flex;
   margin: auto;
 }
-
 .feat-app::before {
   transition: .5s;
   transform: scale(.9);
@@ -254,28 +255,32 @@ span {
 .fade {
   /* z-index: 3; */
   /* position: relative;
-  top: -41px; */
+  top: -25px; */
+  /* height: 100%; */
 }
 
 /* ABOUT PAGE */
 .about-page {
   background-color: white;
   color: black;
-  position: relative;
-  top: -41px;
-
+  /* position: relative; */
+  top: 575px;/*
+  height: 100%;*/
 }
 
 .fade2 {
-  position: relative;
-  /* top: -42px; */
+  /* position: relative; */
+  top: 595px;
 }
 /* PORTFOLIO PAGE */
 .portfolio-page {
   color: white;
+  /* position: relative; */
+  top: 200px;
 }
 .portfolio-sec {
   position: static;
+  padding: 20px;
 }
 .long-disp {
   display: flex;
@@ -341,7 +346,7 @@ h5 {
   font-size: 1.45em;
   word-wrap: break-word;
   font-family: 'Big Shoulders Stencil Text', cursive;
-  position: relative;
+  /* position: relative; */
 }
 .first-feat {
   border-top-left-radius: 5px;
@@ -361,7 +366,7 @@ h5 {
 .contact-page {
   color: black;
   background-color: white;
-  position: relative;
+  /* position: relative; */
   top: -3px;
 }
 .position {
