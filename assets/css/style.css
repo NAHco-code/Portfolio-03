@@ -6,8 +6,27 @@
 body {
   width: 100%;
 }
+h1 {
+  padding: 0 0 0 20px;
+}
+h2 {
+  padding-top: 100px;
+}
 .body-background {
   background-color: black !important;
+}
+h5 {
+  margin: auto;
+  width: 100%;
+  padding: 0 0 1em 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+p {
+  padding: 10px 20px 10px 20px;
 }
 .sticky {
   /* position: -webkit-sticky; */
@@ -98,6 +117,14 @@ body {
   margin-bottom: 0;
   margin-top: 64px;
 }
+.header-mirror {
+  background-image: url(../images/main/header-mirror-fullsize.JPG);
+  background-size: cover;
+  height: 50vw;
+  margin: 0;
+  position: relative;
+  top: -50px;
+}
 .overlay {
   position: relative;
   top: -40px;
@@ -121,6 +148,9 @@ h2 {
   letter-spacing: -0.06em;
 }
 
+/* .preview-div {
+  margin-top: 100px;
+} */
 .preview-sec-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
@@ -130,16 +160,12 @@ h2 {
   display: inline-flex;
   flex-wrap: nowrap;
   font-weight: 600 !important;
-  /* transition: .5s; */
-}
-.preview-sec-title {
-  /* margin-top: 20px; */
   position: relative;
   bottom: -2em;
   background-color: black;
+  margin-top: 150px;
+  /* transition: .5s; */
 }
-
-
 .preview-container {
   display: flex;
   flex-direction: column;
@@ -225,16 +251,6 @@ span {
 .feat-about:hover {
   box-shadow: none;
 }
-h5 {
-  margin: auto;
-  width: 100%;
-  padding: 0 0 1em 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .fade {
   /* z-index: 3; */
   /* position: relative;
@@ -252,7 +268,7 @@ h5 {
 
 .fade2 {
   position: relative;
-  top: -42px;
+  /* top: -42px; */
 }
 /* PORTFOLIO PAGE */
 .portfolio-page {
