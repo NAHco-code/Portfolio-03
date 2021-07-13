@@ -35,7 +35,7 @@ h5 {
 h5 {
   margin: auto;
   width: 100%;
-  padding: 0 0 1em 0;
+  padding: 10px 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   display: flex;
@@ -274,11 +274,8 @@ footer {
 .feat-about:hover {
   box-shadow: none;
 }
-.fade {
-  /* z-index: 3; */
-  /* position: relative;
-  top: -25px; */
-  /* height: 100%; */
+.dani-and-i {
+  margin-bottom: 20px;
 }
 
 /* ABOUT PAGE */
