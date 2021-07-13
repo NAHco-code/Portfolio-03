@@ -6,12 +6,15 @@
     <title>K WILKINSON</title>
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@400;500;600;700;800&display=swap"
       rel="stylesheet">
-      <link rel="stylesheet" href="./assets/css/background-img.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/background-img.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
   </head>
@@ -41,27 +44,51 @@
               <!-- HEADER -->
 
               <!-- Menu Bar -->
-              <div class="sticky">
+              <!-- <div class="sticky">
                 <div class="title-bar nav"><!-- sticky -->
-                  <div class="title-bar-left nav-sec nav-1">
-                    <a href="#home-page">
+                  <!--<div class="title-bar-left nav-sec nav-1">
+                    <a href="#home-page" data-target='mobile-collapse' class='sidenav-trigger'>
                       <img src='./assets/icons/arrows/right-arrow-round.png' class='home-icon'>
                     </a>
+                  </div> -->
+              <nav class="sticky">
+                <div class="nav-wrapper title-bar nav"><!-- sticky -->
+                  <div class="title-bar-left nav-sec nav-1">
+                    <a href="#!" class="brand-logo">
+                      <img src='./assets/icons/arrows/right-arrow-round.png' class='home-icon'/>
+                    </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><img src='./assets/icons/arrows/right-arrow-round.png' class='home-icon' /></a>
                   </div>
-                  <div class="title-bar-center nav-sec nav-2">
-
+                    <ul class="right hide-on-med-and-down">
+                      <li><a href='#about-page' class="nav-links">about</a></li>
+                      <li><a href='#portfolio-page' class="nav-links">portfolio</a></li>
+                      <li><a href='./assets/resume/kw-resume-pdf.pdf' download class="nav-links">resume</a></li>
+                      <li><a href='#contact-page' class="nav-links">contact</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                  <!-- <div class="title-bar-center nav-sec nav-2" class='top hide-on-med-and-down'>
                       <a href='#about-page' class="nav-links">about</a>
-
-
                       <a href='#portfolio-page' class="nav-links">portfolio</a>
-
-
                       <a href='./assets/resume/kw-resume-pdf.pdf' download class="nav-links">resume</a>
-
-
                       <a href='#contact-page' class="nav-links">contact</a>
+                  </div> -->
 
-                  </div>
+                   <!-- mobile nav -->
+                  <ul class="sidenav" id="mobile-demo">
+                    <li><a href='#about-page' class="nav-links">about</a></li>
+                    <li><a href='#portfolio-page' class="nav-links">portfolio</a></li>
+                    <li><a href='./assets/resume/kw-resume-pdf.pdf' download class="nav-links">resume</a></li>
+                    <li><a href='#contact-page' class="nav-links">contact</a></li>
+                  </ul>
+                  <!-- <div class="sidenav" id='mobile-collapse'>
+                    <a href='#about-page' class="nav-links">about</a>
+                    <a href='#portfolio-page' class="nav-links">portfolio</a>
+                    <a href='./assets/resume/kw-resume-pdf.pdf' download class="nav-links">resume</a>
+                    <a href='#contact-page' class="nav-links">contact</a>
+                  </div> -->
+                   <!-- end mobile nav -->
+
                   <div class="title-bar-right nav-sec nav-3">
                     <!-- <button class="menu-icon" type="button" data-open="my-info"></button> -->
                     <a href='https://twitter.com/NAHco_code' target='_blank' class='nav-icon-links'><img class='nav-icons' src='./assets/icons/social-media/twitter-white.PNG'></a>
@@ -323,8 +350,8 @@
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+    <script>$(document).foundation();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src='assets/js/script.js'></script>
   </body>
 </html>
