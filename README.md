@@ -29,7 +29,7 @@ The Foundation framework
 ![screenshot](./assets/images/proj-screenshots/contact-header.PNG)
 ![screenshot](./assets/images/proj-screenshots/contact-footer.PNG)
 
-[ViewLive](https://nahco-code.github.io/Portfolio-03/) -  - [ViewCode](https://github.com/NAHco-code/Portfolio-03.git)
+[ViewLive](https://nahco-code.github.io/Portfolio/) -  - [ViewCode](https://github.com/NAHco-code/Portfolio.git)
 
 ## Questions?
 
@@ -45,3 +45,9 @@ This project is licensed under the MIT License.
 For more information, please visit: [MIT Explained](https://choosealicense.com/licenses/mit/)
 
 &copy; 2021 k.wilkinson
+
+<!-- ### Deployment Notes:
+
+- github pages - run { } to update deployment
+
+-->
