@@ -29,13 +29,13 @@ The Foundation framework
 ![screenshot](./assets/images/proj-screenshots/contact-header.PNG)
 ![screenshot](./assets/images/proj-screenshots/contact-footer.PNG)
 
-[ViewLive](https://nahco-code.github.io/Portfolio/) -  - [ViewCode](https://github.com/NAHco-code/Portfolio.git)
+[ViewLive](https://kathrynwilkinson.github.io/Portfolio/) -  - [ViewCode](https://github.com/kathrynwilkinson/Portfolio.git)
 
 ## Questions?
 
 Please feel free to contact me with any questions via email or LinkedIn.
 
-- Github: [NAHco-code](https://github.com/NAHco-code)
+- Github: [kathrynwilkinson](https://github.com/kathrynwilkinson)
 - LinkedIn: [kwilkinsonxx](https://www.linkedin.com/in/kwilkinsonxx/)
 - Email: [kathrynxwilk@gmail.com](kathrynxwilk@gmail.com)
 
