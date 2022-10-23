@@ -244,6 +244,7 @@ footer {
 .follow-menu {
   display: flex !important;
     justify-content: center;
+  margin: auto;
 }
 
 /* override foundation stylesheet */
