@@ -6,14 +6,15 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 h1 {
   padding: 0 0 0 20px;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 700;
   letter-spacing: -0.06em;
   padding: 3em 0 0 0 1em;
@@ -83,9 +84,7 @@ footer {
 .nav-sec {
   margin: auto;
 }
-.nav-1 {
 
-}
 .nav-2 {
   font-size: 0.75em;
   margin-left: 1em;
@@ -94,7 +93,6 @@ footer {
   margin: auto;
 }
 .nav-links {
-
   color: white;
   padding: 0.5em;
 }
@@ -240,6 +238,7 @@ footer {
 .contact-page {
   color: black;
   background-color: white;
+  height: max-content;
 }
 .follow-menu {
   display: flex !important;
@@ -271,6 +270,7 @@ footer {
   flex-direction: column;
   margin: auto;
   height: max-content;
+  position: relative;
 }
 .contact-option{
   border-radius: 5px;
@@ -284,4 +284,9 @@ footer {
   padding: 0.2em 0.5em;
   width: 12em;
   text-align: center;
+}
+#extend {
+  height: 10em;
+  position: relative;
+  top: 0;
 }
