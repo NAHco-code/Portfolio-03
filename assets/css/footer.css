@@ -14,34 +14,17 @@ footer {
 }
 .footer-wrapper-1 {
     display: flex;
-    justify-content: space-evenly;
-    padding-left: 20px;
+        align-items: flex-end;
+        justify-content: space-evenly;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
-/* .footer-wrapper-2 {
-    display: flex;
-    flex-direction: column;
-    padding-right: 20px;
-} */
+
 .footer-text,
 a.footer-text {
     display: flex;
     padding: 7px;
-    color: lightgray !important;
-}
-.follow {
-    margin-right: 10px;
-}
-.icon-links {
-    display: flex;
-    position: relative;
-    left: 3px;
-    bottom: 5px;
-    font-size: 12px;
-}
-.follow-link {
-    display: flex;
-    padding: 5px;
     color: lightgray !important;
 }
 a.footer-text:hover,
