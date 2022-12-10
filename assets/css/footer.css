@@ -4,44 +4,27 @@ footer {
     display: flex;
     flex-direction: row;
     align-content: flex-end;
-    margin-top: 110px;
     padding-top: 40px;
     padding-bottom: 25px;
     justify-content: space-between;
     font-size: 8px;
-    /* border-top: 0.5px groove rgba(250, 244, 244, 0.171); */
     background-color: white;
+    position: relative;
+        top: 0;
 }
 .footer-wrapper-1 {
+    position: relative;
     display: flex;
-    justify-content: space-evenly;
-    padding-left: 20px;
+        align-items: flex-end;
+        justify-content: space-evenly;
     width: 100%;
+    height: 20em;
 }
-/* .footer-wrapper-2 {
-    display: flex;
-    flex-direction: column;
-    padding-right: 20px;
-} */
+
 .footer-text,
 a.footer-text {
     display: flex;
     padding: 7px;
-    color: lightgray !important;
-}
-.follow {
-    margin-right: 10px;
-}
-.icon-links {
-    display: flex;
-    position: relative;
-    left: 3px;
-    bottom: 5px;
-    font-size: 12px;
-}
-.follow-link {
-    display: flex;
-    padding: 5px;
     color: lightgray !important;
 }
 a.footer-text:hover,

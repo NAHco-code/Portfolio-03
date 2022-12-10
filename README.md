@@ -6,7 +6,7 @@ Full stack web developer with a passion for UX/UI design, eager to contribute de
 
 ## Table of Contents
 
-- [Description](#portfolio-03)
+- [Description](#professional-portfolio)
 - [Contributing](#contributing)
 - [Technologies](#tech)
 - [Visuals](#visuals)
@@ -15,7 +15,7 @@ Full stack web developer with a passion for UX/UI design, eager to contribute de
 
 ## Contributing
 
-k.wilkinson
+Sole contributor: k.wilkinson
 
 ### Tech
 
@@ -29,13 +29,13 @@ The Foundation framework
 ![screenshot](./assets/images/proj-screenshots/contact-header.PNG)
 ![screenshot](./assets/images/proj-screenshots/contact-footer.PNG)
 
-[ViewLive](https://nahco-code.github.io/Portfolio/) -  - [ViewCode](https://github.com/NAHco-code/Portfolio.git)
+[ViewLive](https://kathrynwilkinson.github.io/Portfolio/) -  - [ViewCode](https://github.com/kathrynwilkinson/Portfolio.git)
 
 ## Questions?
 
 Please feel free to contact me with any questions via email or LinkedIn.
 
-- Github: [NAHco-code](https://github.com/NAHco-code)
+- Github: [kathrynwilkinson](https://github.com/kathrynwilkinson)
 - LinkedIn: [kwilkinsonxx](https://www.linkedin.com/in/kwilkinsonxx/)
 - Email: [kathrynxwilk@gmail.com](kathrynxwilk@gmail.com)
 
@@ -48,6 +48,6 @@ For more information, please visit: [MIT Explained](https://choosealicense.com/l
 
 <!-- ### Deployment Notes:
 
-- github pages - run { } to update deployment
+- github pages - run { } to update deployment ?
 
 -->
