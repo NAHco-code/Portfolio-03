@@ -6,7 +6,7 @@ Full stack web developer with a passion for UX/UI design, eager to contribute de
 
 ## Table of Contents
 
-- [Description](#portfolio-03)
+- [Description](#professional-portfolio)
 - [Contributing](#contributing)
 - [Technologies](#tech)
 - [Visuals](#visuals)
@@ -15,7 +15,7 @@ Full stack web developer with a passion for UX/UI design, eager to contribute de
 
 ## Contributing
 
-k.wilkinson
+Sole contributor: k.wilkinson
 
 ### Tech
 
@@ -48,6 +48,6 @@ For more information, please visit: [MIT Explained](https://choosealicense.com/l
 
 <!-- ### Deployment Notes:
 
-- github pages - run { } to update deployment
+- github pages - run { } to update deployment ?
 
 -->
