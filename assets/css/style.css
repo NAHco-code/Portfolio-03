@@ -163,8 +163,9 @@ footer {
   color: white;
 }
 .portfolio-sec {
-  position: static;
+  position: relative;
   padding: 20px;
+  display: flex;
 }
 
 /* CONTACT PAGE */
