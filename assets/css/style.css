@@ -20,7 +20,7 @@ h1 {
 /* about section sub-headings */
 h3 {
   font-family: 'Montserrat', sans-serif;
-  
+
 }
 /* portfolio section sub-headings */
 h5 {
@@ -61,7 +61,7 @@ footer {
 .sticky {
   position: fixed;
   top: -1px;
-  z-index: 1;
+  z-index: 2;
 }
 .nav {
   display: flex;
@@ -152,17 +152,12 @@ footer {
   display: flex;
   margin: auto;
 }
-.feat-about {
-  border-radius: 5px;
-  border-width: 7px;
-  border-color: rgba(250, 250, 250, 0.863);
-  margin-bottom: 5%;
-  height: 15rem;
-  width: 90vw;
+.overlay {
+  position: relative;
+  bottom: 2rem;
+  z-index: 0;
 }
-.feat-about:hover {
-  box-shadow: none;
-}
+
 
 /* PORTFOLIO PAGE */
 .portfolio-page {
