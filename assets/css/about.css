@@ -1,6 +1,8 @@
 .img-bank-wrapper {
 	position: relative;
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	z-index: 1;
 }
 .feat-about {
@@ -12,11 +14,12 @@
 	width: 90vw;
 }
 h3 {
-	position: absolute;
-	background-color: rgb(32, 47, 80);
+	/* position: absolute; */
+	background-color: rgba(187, 173, 181, 0.396);
 	color: whitesmoke;
-	width: 100%;
+	width: 90%;
 	text-align: center;
+	margin: 0;
 }
 .img-bank {
 	display: flex;
