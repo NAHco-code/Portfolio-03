@@ -23,13 +23,14 @@ The Foundation framework
 
 ## Visuals
 
-![screenshot](./assets/images/proj-screenshots/home.PNG)
-![screenshot](./assets/images/proj-screenshots/about.PNG)
-![screenshot](./assets/images/proj-screenshots/portfolio.PNG)
-![screenshot](./assets/images/proj-screenshots/contact-header.PNG)
-![screenshot](./assets/images/proj-screenshots/contact-footer.PNG)
+![screenshot](./assets/images/readme-screenshots/home.PNG)
+![screenshot](./assets/images/readme-screenshots/about.PNG)
+![screenshot](./assets/images/readme-screenshots/portfolio.PNG)
+![screenshot](./assets/images/readme-screenshots/contact-header.PNG)
+![screenshot](./assets/images/readme-screenshots/contact-footer.PNG)
 
-[ViewLive](https://kathrynwilkinson.github.io/Portfolio/) -  - [ViewCode](https://github.com/kathrynwilkinson/Portfolio.git)
+- [ViewLive](https://kathrynwilkinson.github.io/Portfolio/)
+- [ViewCode](https://github.com/kathrynwilkinson/Portfolio.git)
 
 ## Questions?
 

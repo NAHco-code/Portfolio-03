@@ -23,15 +23,13 @@ h3 {
 
 }
 /* portfolio section sub-headings */
-h5 {
+h4 {
   color: black;
-  background-color: rgba(216, 205, 205, 0.89);
-  display: flex;
-  flex-shrink: 3;
-  flex-wrap: wrap;
+  background-color: rgba(216, 205, 205, 0.45);
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   font-size: 1em;
-  justify-content: center;
+  text-align: center;
   margin: auto;
   padding: 10px 0;
   width: 100%;
@@ -41,6 +39,7 @@ h5 {
 p {
   font-family: 'Montserrat', sans-serif;
   padding: 0.5em 2em 0 1em;
+  font-size: 0.75rem;
 }
 
 footer {
@@ -167,69 +166,6 @@ footer {
   position: static;
   padding: 20px;
 }
-.long-disp {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-}
-.port-screen {
-  background-color: rgba(22, 22, 22, 0.692);
-  background-position: contain;
-  color: black;
-  display: flex;
-  justify-content: space-around;
-  height: 148px;
-  width: 89.45%;
-  position: absolute;
-  top: 0;
-  left: 5.3%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-.port-screen::before,
-.port-screen2::before {
-  transition: .5s;
-  transform: scale(.9);
-  background: #ffe2e7;
-}
-.port-screen:hover::before,
-.port-screen2:hover::before {
-  transform: scale(1.2);
-  box-shadow: 0 2 15px #ffe2e7;
-}
-.port-screen:hover,
-.port-screen2:hover {
-  box-shadow: 0 0 10px #ffe2e7;
-  text-shadow: 0 0 10px #ffe2e7;
-}
-.port-screen2 {
-  background-color: rgba(22, 22, 22, 0.692);
-  background-position: contain;
-  color: black;
-  display: flex;
-  justify-content: space-around;
-  height: 148px;
-  width: 89.45%;
-  position: absolute;
-  left: 5.3%;
-  bottom: 30px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.first-feat {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  height: 150px;
-  width: 100%;
-}
-.sec-feat {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  margin-bottom: 30px;
-  height: 150px;
-  width: 100%;
-}
 
 /* CONTACT PAGE */
 .contact-page {
@@ -239,7 +175,7 @@ footer {
 }
 .follow-menu {
   display: flex !important;
-    justify-content: center;
+  justify-content: center;
   margin: auto;
 }
 
