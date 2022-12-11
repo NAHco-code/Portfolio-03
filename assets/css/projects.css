@@ -1,0 +1,32 @@
+.project-display {
+	background-image: url(../images/projects/wood-texture-background.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	margin: 0.5rem;
+	height: 10.1rem;
+	width: 10rem;
+	border: solid whitesmoke 0.25rem;
+  }
+.view-project {
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	border-radius: 5px;
+	background-color: rgba(116, 153, 246, 0.789);
+	color: whitesmoke;
+	font-size: 0.85rem;
+	padding: 0.25rem;
+	margin: 0.35em 0.5em 0 0.5em;
+}
+a {
+	width: max-content;
+	height: max-content;
+}
