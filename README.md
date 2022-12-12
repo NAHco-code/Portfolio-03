@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 
-Full stack web developer with a passion for UX/UI design, eager to contribute developed knowledge in a front-end role. An innovative and judicious approach complement design skills enabling craft and optimization of elegant, user-focused websites and applications. Backgrounds in fine art, social work and hospitality industries, provide in-depth knowledge of dynamic team collaboration in demanding environments, difficult clients, sensitive information & business objectives, as well as sales, marketing, and design.
+Professional portfolio created using Foundation UI Framework
 
 ## Table of Contents
 
@@ -19,7 +19,8 @@ Sole contributor: k.wilkinson
 
 ### Tech
 
-The Foundation framework
+- HTML && CSS
+- Foundation UI Framework
 
 ## Visuals
 
@@ -46,9 +47,3 @@ This project is licensed under the MIT License.
 For more information, please visit: [MIT Explained](https://choosealicense.com/licenses/mit/)
 
 &copy; 2021 k.wilkinson
-
-<!-- ### Deployment Notes:
-
-- github pages - run { } to update deployment ?
-
--->
