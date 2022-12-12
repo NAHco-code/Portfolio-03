@@ -21,6 +21,7 @@ Sole contributor: k.wilkinson
 
 - HTML && CSS
 - Foundation UI Framework
+- Image+Icon Manipulation Software
 
 ## Visuals
 
