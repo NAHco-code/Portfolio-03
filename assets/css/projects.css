@@ -36,7 +36,7 @@
 	color: rgb(75, 75, 75);
 }
 .proj-link:hover,
-#techlist-btn:hover {
+#proj-info-btn:hover {
 	color: rgb(255, 255, 255);
 	text-shadow: 0px 0.5px 0.25px #ffffff;
 }
