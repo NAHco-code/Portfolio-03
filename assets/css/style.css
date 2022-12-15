@@ -8,10 +8,6 @@ body {
   height: 100%;
   width: 100%;
 }
-div {
-  margin: 0!important;
-  padding: 0!important;
-}
 /* main section titles */
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -23,6 +19,12 @@ h1 {
 /* about section sub-headings */
 h3 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+	background-color: rgba(187, 173, 181, 0.5);
+	color: white;
+	width: 90vw;
+	text-align: center;
+	margin: 0;
 }
 /* portfolio section project card headings */
 h4 {
