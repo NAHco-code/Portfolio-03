@@ -17,9 +17,11 @@
   <!-- Personal CSS -->
   <link rel="stylesheet" href="./assets/css/background-img.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/mobile-nav.css">
   <link rel="stylesheet" href="./assets/css/about.css">
   <link rel="stylesheet" href="./assets/css/projects.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
+
 </head>
 
 <body>
@@ -27,11 +29,11 @@
   <!-- *** code src: foundation ui - html template *** -->
 
   <!-- INTERNAL BODY WRAPPER -->
-  <div class="off-canvas-wrapper" id='home-page'>
+  <!-- <div class="body-wrap off-canvas-wrapper" id='home-page'> -->
     <!-- INNER INTERNAL BODY WRAPPER -->
-    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+    <!-- <div class="body-wrap off-canvas-wrapper-inner" data-off-canvas-wrapper> -->
       <!-- THIRD BODY WRAPPER  -->
-      <div class="off-canvas-content body-background" data-off-canvas-content>
+      <!-- <div class="body-wrap off-canvas-content body-background" data-off-canvas-content> -->
         <!-- HOME PAGE -->
         <div class="home-page">
 
@@ -43,24 +45,23 @@
                   <img src='./assets/icons/arrows/right-arrow-round.png' class='home-icon'>
                 </a>
               </div>
+              <a id="toggle-mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </a>
               <div class="nav-sec nav-2">
-
-                <a href='#about-page' class="nav-links">about</a>
-
-
-                <a href='#portfolio-page' class="nav-links">portfolio</a>
-
-
-                <a href='./assets/resume/kathryn-wilkinson.pdf' target="./assets/resume/kathryn-wilkinson.pdf"
-                  class="nav-links">resume</a>
-
-
-                <a href='#contact-page' class="nav-links">contact</a>
-
+                <ul>
+                  <li><a href='#about-page' class="navbar-links">about</a></li>
+                  <li><a href='#portfolio-page' class="navbar-links">portfolio</a></li>
+                  <li><a href='./assets/resume/kathryn-wilkinson.pdf' target="./assets/resume/kathryn-wilkinson.pdf"
+                  class="navbar-links">resume</a></li>
+                  <li><a href='#contact-page' class="navbar-links">contact</a></li>
+                </ul>
               </div>
             </nav>
           </div>
-  <!-- End Navigation Bar -->
+          <!-- End Navigation Bar -->
 
           <!-- HERO -->
           <div id="hero-container">
@@ -339,16 +340,16 @@
         </footer>
         <div id="extend">THE END</div>
       </div>
-    </div>
+    <!-- </div>
   </div>
-  </div>
+  </div> -->
   <!-- Foundation JS -->
   <script src="./assets/js/foundation-js/vendor/jquery.js"></script>
   <script src="./assets/js/foundation-js/vendor/what-input.js"></script>
   <script src="./assets/js/foundation-js/vendor/foundation.js"></script>
   <script src="./assets/js/foundation-js/app.js"></script>
   <!-- Personal JS -->
-  <script src="./assets/js/script.js"></script>
+    <script defer src="./assets/js/script.js"></script>
 
 </body>
 </html>

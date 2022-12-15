@@ -2,7 +2,11 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  transition-duration: 0.35s;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 div {
   margin: 0!important;
@@ -46,9 +50,7 @@ footer {
   background-size: cover;
   height: 50vw;
 }
-.body-background {
-  background-color: black !important;
-}
+
 /* PAGE POSITIONING */
 .about-page,
 .portfolio-page,
@@ -70,7 +72,6 @@ footer {
 
 /* nav section container */
 .nav-wrapper {
-  position: relative;
   height: 3rem;
 }
 /* nav items wrapper */
@@ -79,17 +80,32 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  max-height: 3rem;
+  height: 2.75rem;
+  max-height: 2.75rem;
   position: fixed;
   z-index: 2;
+  padding: 0 !important;
 }
-.nav-1 {
-  /* flex-grow: 1; */
-  /* flex-shrink: 1; */
+
+div.nav-1 {
+  /* display: flex;
+  justify-content: flex-start;
+  flex: 1 1 15%; */
+  position: absolute;
+  left: 0;
+  margin: 0;
+  height: 100%;
+}
+a.home-link {
   display: flex;
-  flex: 1 1 10%;
-  margin: 0 1rem;
-  width: 15vw;
+  width: 3rem;
+  height: 100%;
+  padding: 0.25rem 0.35rem;
+  margin: 0 !important;
+}
+
+img.home-icon {
+  height: 100%;
 }
 .nav-2 {
   display: flex;
@@ -99,23 +115,24 @@ footer {
   margin: 0 2rem;
   width: 60vw;
 }
-/* .nav-3 {
-  display: flex;
-  flex: 1 1 15%;
-  justify-content: space-around;
-  margin: 0 0.5rem;
-  width: 25vw;
-} */
-a.nav-links {
+
+a.navbar-links {
   padding: 0.5rem;
 }
-a.nav-links:link {
+
+.nav2 li:hover,
+.navbar-links:hover,
+a.home-link:hover,
+a#toggle-mobile-menu:hover {
+  background-color: rgb(45, 45, 45);
+}
+a.navbar-links:link {
   color: white;
 }
-a.nav-links:visited {
+a.navbar-links:visited {
   color: white;
 }
-a.nav-links
+a.navbar-links
 .nav-icons {
   width: 1.5rem;
   height: 1.5rem;
@@ -132,10 +149,7 @@ a.nav-links
 
 } */
 
-a.home-link{
-  width: 2rem;
-  display: flex;
-}
+
 /* .home-icon {
 
 } */
@@ -164,7 +178,10 @@ a.home-link{
 #hero-text {
   z-index: 5;
   width: 95%;
-  opacity: 0.80;
+  height: 90%;
+  opacity: 0.85;
+  position: relative;
+  top: 1rem;
   /* border: 2px solid rgb(144, 0, 255); */
 }
 
@@ -249,6 +266,7 @@ a.home-link{
 
 /* PORTFOLIO PAGE */
 .portfolio-page {
+  background-color: black;
   color: white;
 }
 .portfolio-sec {
