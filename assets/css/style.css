@@ -4,6 +4,10 @@
   scroll-behavior: smooth;
   transition-duration: 0.35s;
 }
+div {
+  margin: 0!important;
+  padding: 0!important;
+}
 /* main section titles */
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -16,7 +20,7 @@ h1 {
 h3 {
   font-family: 'Montserrat', sans-serif;
 }
-/* portfolio section sub-headings */
+/* portfolio section project card headings */
 h4 {
   color: black;
   background-color: rgba(216, 205, 205, 0.45);
@@ -35,7 +39,6 @@ p {
   padding: 0.5em 2em 0 1em;
   font-size: 0.75rem;
 }
-
 footer {
   position: relative;
   top: -120px;
@@ -43,24 +46,42 @@ footer {
   background-size: cover;
   height: 50vw;
 }
-
 .body-background {
   background-color: black !important;
 }
-
-/* Navigation Bar Style */
-
-/* nav container */
-.sticky {
-  position: fixed;
-  top: -1px;
-  z-index: 2;
+/* PAGE POSITIONING */
+.about-page,
+.portfolio-page,
+.contact-page {
+  padding-top: 3em;
 }
+/* padding for outer container for each main section */
+.padding {
+  padding: 0 10px 0 10px;
+  margin: auto;
+  border: none;
+  box-shadow: none;
+}
+/* end global styling */
+
+
+
+/* Navigation Bar Styling */
+
+/* nav section container */
+.nav-wrapper {
+  position: relative;
+  height: 3rem;
+}
+/* nav items wrapper */
 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
+  max-height: 3rem;
+  position: fixed;
+  z-index: 2;
 }
 .nav-1 {
   /* flex-grow: 1; */
@@ -78,114 +99,105 @@ footer {
   margin: 0 2rem;
   width: 60vw;
 }
-.nav-3 {
-  /* flex-grow: 1; */
-  /* flex-shrink: 1; */
+/* .nav-3 {
   display: flex;
   flex: 1 1 15%;
   justify-content: space-around;
   margin: 0 0.5rem;
   width: 25vw;
-}
-.nav-links {
-  color: white;
+} */
+a.nav-links {
   padding: 0.5rem;
 }
+a.nav-links:link {
+  color: white;
+}
+a.nav-links:visited {
+  color: white;
+}
+a.nav-links
 .nav-icons {
   width: 1.5rem;
   height: 1.5rem;
 }
-/* padding for outer container for each main section */
-.padding {
-  padding: 0 10px 0 10px;
-  margin: auto;
-  border: none;
-  box-shadow: none;
-}
 
-/*** HOME PAGE ***/
+/*** HOME PAGE styling ***/
 
-.home-page {
+.home-page,
+.nav-sec {
   color: white;
 }
-.home-icon {
-  height: 50px;
-  width: 50px;
-  margin: 0 1.5% 0 1.5%;
+
+/* img.home-icon {
+
+} */
+
+a.home-link{
+  width: 2rem;
+  display: flex;
 }
-.header-img {
-  background-image: url(../images/main/portfolio-hero-fade.JPG);
-  background-size: cover;
-  height: 50vw;
-  margin-bottom: 0;
-  margin-top: 64px;
+/* .home-icon {
+
+} */
+/* #hero-container {
+
+} */
+#hero-background-img {
+  height: 35vh;
 }
+#hero-img-wrapper {
+  position: absolute;
+    top: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 0;
+  height: 35vh;
+  /* border: 2px solid hotpink; */
+}
+#hero-headshot {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* border: 2px solid lime; */
+}
+#hero-text {
+  z-index: 5;
+  width: 95%;
+  opacity: 0.80;
+  /* border: 2px solid rgb(144, 0, 255); */
+}
+
+/* background-img use case */
 .header-mirror {
-  background-image: url(../images/main/header-mirror-fullsize.JPG);
+  background-image: url(../images/main/header-img-mirror.JPG);
   background-size: cover;
-  height: 50vw;
+  height: 12vh;
   margin: 0;
   position: static;
   top: 0px;
 }
-
-/* PAGE POSITIONING */
-.about-page,
-.portfolio-page,
-.contact-page {
-  padding-top: 3em;
-}
-
-/* ABOUT PAGE */
-.about-page {
-  background-color: white;
-  color: black;
-}
-.thumbnail {
-  display: flex;
-  margin: auto;
-}
-.overlay {
-  position: relative;
-  bottom: 2rem;
-  z-index: 0;
-}
-
-/* PORTFOLIO PAGE */
-.portfolio-page {
-  color: white;
-}
-.portfolio-sec {
-  position: relative;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/* CONTACT PAGE */
-.contact-page {
-  color: black;
-  background-color: white;
-  height: max-content;
+#homepage-feature {
+  background: linear-gradient( rgb(9,7,0) 25%, black 95%);
 }
 .follow-menu {
   display: flex !important;
   justify-content: center;
   margin: auto;
+  height: max-content;
 }
+/* ul.follow-menu {
 
-/* override foundation stylesheet */
+} */
 .menu>li>a>i, .menu>li>a>img {
   margin: 0 !important;
 }
-
 .menu>li>a>.follow-icon {
   display: flex !important;
     justify-content: center;
-  height: 5em;
-  width: 5em;
-  margin: 3em 0.5em !important;
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem 0.5em !important;
 }
 .center-contact-icons {
   display: flex !important;
@@ -218,4 +230,38 @@ footer {
   height: 10em;
   position: relative;
   top: 0;
+}
+
+/* ABOUT PAGE */
+.about-page {
+  background-color: white;
+  color: black;
+}
+.thumbnail {
+  display: flex;
+  margin: auto;
+}
+/* .overlay {
+  position: relative;
+  bottom: 2rem;
+  z-index: 0;
+} */
+
+/* PORTFOLIO PAGE */
+.portfolio-page {
+  color: white;
+}
+.portfolio-sec {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CONTACT PAGE */
+.contact-page {
+  color: black;
+  background-color: white;
+  height: max-content;
 }
