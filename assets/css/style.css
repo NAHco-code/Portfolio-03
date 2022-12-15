@@ -237,11 +237,21 @@ a.navbar-links
   margin-bottom: 1em;
 }
 .contact-link {
-  color: white;
   font-family: 'Montserrat', sans-serif;
   padding: 0.2em 0.5em;
   width: 12em;
   text-align: center;
+}
+a.contact-link:link {
+  color: white;
+}
+a.contact-link:visited {
+  color: white;
+}
+a.contact-link:hover {
+  color: white;
+  background-color: rgb(77, 193, 255);
+  border-radius: 5px;
 }
 #extend {
   height: 10em;
@@ -277,8 +287,8 @@ a.navbar-links
   justify-content: center;
 }
 
-/* CONTACT PAGE */
-.contact-page {
+/* SKILLS PAGE */
+.skills-page {
   color: black;
   background-color: white;
   height: max-content;
