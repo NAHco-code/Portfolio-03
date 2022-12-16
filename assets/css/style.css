@@ -147,13 +147,15 @@ footer {
 }
 .overlay {
   position: relative;
-  bottom: 2rem;
+  /* bottom: 2rem; */
   z-index: 0;
 }
 
 /* PORTFOLIO PAGE */
 .portfolio-page {
   color: white;
+  background-color: black;
+  position: relative;
 }
 .portfolio-sec {
   position: relative;
