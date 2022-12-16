@@ -4818,8 +4818,8 @@ html.is-reveal-open {
   html.is-reveal-open.zf-has-scroll {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch; }
-  html.is-reveal-open body {
-    overflow-y: hidden; }
+  /* html.is-reveal-open body {
+    overflow-y: hidden; } */
 
 .reveal-overlay {
   position: fixed;
@@ -4876,28 +4876,28 @@ html.is-reveal-open {
       width: 90%;
       max-width: 75rem; } }
   .reveal.full {
-    top: 0;
+    /* top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     max-width: none;
     height: 100%;
     min-height: 100%;
-    margin-left: 0;
+    /* margin-left: 0; */
     border: 0;
     border-radius: 0; }
   @media print, screen and (max-width: 39.99875em) {
     .reveal {
-      top: 0;
+      /* top: 0;
       right: 0;
       bottom: 0;
-      left: 0;
-      width: 100%;
+      left: 0; */
+      width: 90%;
       max-width: none;
-      height: 100%;
-      min-height: 100%;
-      margin-left: 0;
+      height: 60%;
+      min-height: 60%;
+      margin: auto;
       border: 0;
       border-radius: 0; } }
   .reveal.without-overlay {

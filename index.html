@@ -11,10 +11,12 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
-  <!-- Personal CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Libre+Franklin&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Rubik&family=Trirong&display=swap" rel="stylesheet">
+        <!-- Personal CSS -->
   <link rel="stylesheet" href="./assets/css/background-img.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/mobile-nav.css">
@@ -175,15 +177,17 @@
           </div>
 
           <!-- Portfolio Thumbnail Section -->
-          <div class="row small-up-1 medium-up-2 large-up-4 portfolio-sec">
+          <div class="row portfolio-sec">
 
             <!--- Project Card --->
             <div class="project-display">
-              <h4>FLEET MANAGER</h4>
-              <div class='view-project'>
-                <!-- Project Info Modal -->
-                <div id="fleet-modal" class="small reveal proj-modal" data-reveal>
-                  <ul>
+              <h4>Fleet Manager</h4>
+              <ul class='info-links'>
+                <li class="tech-info">
+                  <a class="proj-link">
+                    <h6>Tech stack</h6>
+                  </a>
+                  <!-- <ul>
                     <li>MongoDb</li>
                     <li>Express</li>
                     <li>React (+Hooks)</li>
@@ -192,41 +196,34 @@
                     <li>SortableJS</li>
                     <li>MomentJS</li>
                     <li>react-material-ui</li>
-                  </ul>
-                  <!-- Button to close modal  -->
-                  <button class="close-button" data-close aria-label="Close modal" type="button">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <!-- Button to open modal -->
-                <button id="proj-info-btn" class="proj-link" data-open="fleet-modal">
-                  Info
-                </button>
-                <!-- Link to Deployed App  -->
-                <button>
+                  </ul> -->
+                </li>
+                <li>
                   <a class="proj-link" href='https://fleet-manager-react.herokuapp.com/' target='_blank'>
-                    App
+                    <h6>Deployment</h6>
                   </a>
-                </button>
+                </li>
                 <!-- Link to Source Code  -->
-                <button>
+                <li>
                   <a class="proj-link" href='https://github.com/kathrynwilkinson/workforce-manager' target='_blank'>
-                    Code
+                    <h6>Source Code</h6>
                   </a>
-                </button>
-              </div>
+                </li>
+              </ul>
             </div>
 
             <!--- Project Card --->
             <div class="project-display">
-              <h4>COVID TRACKER</h4>
+              <h4>Covid Tracker</h4>
               <div class='view-project'>
                   <!-- Project Info Modal -->
-                  <div id="covid-modal" class="small reveal proj-modal" data-reveal>
+                  <div id="covid-modal" class="tiny reveal proj-modal" data-reveal>
                     <ul>
                       <li>MomentJS</li>
                       <li>3rd Party APIs</li>
                     </ul>
+                    <h5>Covid Tracker</h5>
+                    <h6>Tech</h6>
                     <!-- Button to close modal  -->
                     <button class="close-button" data-close aria-label="Close modal" type="button">
                       <span aria-hidden="true">&times;</span>
@@ -253,14 +250,16 @@
 
             <!--- Project Card --->
             <div class="project-display">
-              <h4>WEATHER APP</h4>
+              <h4>Weather App</h4>
               <div class='view-project'>
                 <!-- Project Info Modal -->
-                <div id="weather-modal" class="small reveal proj-modal" data-reveal>
+                <div id="weather-modal" class="tiny reveal proj-modal" data-reveal>
                   <ul>
                     <li>MomentJS</li>
                     <li>Open Weather Map API</li>
                   </ul>
+                  <h5>Weather App</h5>
+                  <h6>Tech</h6>
                   <!-- Button to close modal  -->
                   <button class="close-button" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -290,11 +289,13 @@
               <h4>SQL CMS</h4>
               <div class='view-project'>
                 <!-- Project Info Modal -->
-                <div id="cms-modal" class="small reveal proj-modal" data-reveal>
+                <div id="cms-modal" class="tiny reveal proj-modal" data-reveal>
                   <ul>
                     <li>NodeJS</li>
                     <li>Inquirer</li>
                   </ul>
+                  <h5>SQL Employee CMS</h5>
+                  <h6>Tech</h6>
                   <!-- Button to close modal  -->
                   <button class="close-button" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -324,12 +325,14 @@
               <h4>Employee Directory</h4>
               <div class='view-project'>
                 <!-- Project Info Modal -->
-                <div id="cms-modal" class="small reveal proj-modal" data-reveal>
+                <div id="cms-modal" class="tiny reveal proj-modal" data-reveal>
                   <ul>
                     <li>React</li>
                     <li>Random User API</li>
                     <li>Semantic UI React</li>
                   </ul>
+                  <h5>Employee Directory</h5>
+                  <h6>Tech</h6>
                   <!-- Button to close modal  -->
                   <button class="close-button" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
@@ -353,6 +356,45 @@
                 </button>
               </div>
             </div>
+
+              <!--- Project Card --->
+              <div class="project-display">
+                <h4>E-Commerce Routing</h4>
+                <div class='view-project'>
+                  <!-- Project Info Modal -->
+                  <div id="cms-modal" class="tiny reveal proj-modal" data-reveal>
+                    <ul>
+                      <li>*back-end only</li>
+                      <li>MVC Structure</li>
+                      <li>SQL Database</li>
+                      <li>sequelize</li>
+                      <li>express router</li>
+                    </ul>
+                    <h5>E-Commerce Routing</h5>
+                    <h6>Tech</h6>
+                    <!-- Button to close modal  -->
+                    <button class="close-button" data-close aria-label="Close modal" type="button">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!-- Button to open modal -->
+                  <button id="proj-info-btn" class="proj-link" data-open="cms-modal">
+                    Info
+                  </button>
+                  <!-- Link to YouTube Demo  -->
+                  <button>
+                    <a class="proj-link" href='http://www.youtube.com/watch?v=5YREGp_QQHM' target='_blank'>
+                      Demo
+                    </a>
+                  </button>
+                  <!-- Link to Source Code  -->
+                  <button>
+                    <a class="proj-link" href='https://github.com/kathrynwilkinson/E-Commerce-Routing' target='_blank'>
+                      Code
+                    </a>
+                  </button>
+                </div>
+              </div>
 
             <!-- end project card -->
           </div>
