@@ -22,7 +22,7 @@ div.nav-1 {
 	justify-content: flex-start;
 	align-items: center;
 	position: absolute;
-	left: 0;
+	left: 0.5rem;
 	margin: 0;
 	height: 100%;
 }
@@ -30,7 +30,7 @@ a.home-link {
 	display: flex;
 	/* width: 3rem; */
 	height: 90%;
-	padding: 0.07rem 0.07rem;
+	padding: 0.25rem 0.25rem;
 	margin: 0.15rem;
 	border-radius: 50px;
 }
@@ -68,12 +68,12 @@ a.navbar-links
 /* Mobile Styling */
 a#toggle-mobile-menu {
 	position: absolute;
-	right: 0.5rem;
+	right: 1rem;
 	display: none;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	border: 0.85px solid rgb(251,153,0);
+	border: 0.15px solid rgb(33, 33, 33);
 	padding: 0.225rem;
 	border-radius: 5px;
 }
@@ -86,13 +86,13 @@ a#toggle-mobile-menu {
 	display: flex;
 }
 #bar1 {
-	background-color: rgb(255, 245, 202);
+	background-color: white;
 }
 #bar2 {
-	background-color: rgb(255, 230, 120);
+	background-color: rgb(225, 225, 225);
 }
 #bar3 {
-	background-color: rgb(250, 200, 0);
+	background-color: rgb(200, 200, 200);
 }
 .nav-2 ul {
 	margin: 0;

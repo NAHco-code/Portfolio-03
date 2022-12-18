@@ -26,7 +26,6 @@ h4 {
 .project-display {
 	display: flex;
 	flex-direction: column;
-	position: relative;
 	margin: 0.5rem;
 	border-top: 1px solid lightgray;
 }
