@@ -126,5 +126,12 @@ a.proj-link {
 	font-size: 0.95rem;
 }
 .proj-link img {
-	width: 1.25rem;
+	width: 1.35rem;
+	max-width: max-content;
+}
+.proj-link:first-child {
+	height: 1.25rem;
+}
+.proj-link:last-child {
+	width: 1rem;
 }
