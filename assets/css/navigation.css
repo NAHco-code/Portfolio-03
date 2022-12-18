@@ -3,6 +3,7 @@
 /* nav section container */
 .nav-wrapper {
 	height: 3rem;
+	position: relative;
 }
 /* nav items wrapper */
 .nav {
@@ -10,8 +11,7 @@
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	height: 2.75rem;
-	max-height: 2.75rem;
+	height: 3rem;
 	position: fixed;
 	z-index: 2;
 	padding: 0 !important;
@@ -51,7 +51,7 @@ a.navbar-links {
 .navbar-links:hover,
 a.home-link:hover,
 a#toggle-mobile-menu:hover {
-	background-color: rgb(60, 60, 60);
+	background-color: var(--black-hover);
 }
 a.navbar-links:link {
 	color: white;
@@ -125,9 +125,9 @@ a#toggle-mobile-menu {
 		width: 100% !important;
 		margin: 0;
 	}
-	.nav-2 li {
+	/* .nav-2 li {
 
-	}
+	} */
 	a.navbar-links {
 		height: 1.5rem;
 		padding: 0.25rem;

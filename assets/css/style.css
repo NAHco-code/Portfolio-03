@@ -1,11 +1,14 @@
 /* CSS VARIABLES */
 :root {
-  --main-bg-color: rgb(93,109,124);
-  --section-bg-color: rgb(0,0,0);
-  --main-headers: rgb(249,208,1);
-  --sub-headers: rgb(227,167,101);
-  --regular-text: rgb(242,239,226);
-  /* --accent: ; */
+  --slate: rgb(93,109,124);
+  --black: rgb(0,0,0);
+  --gold: rgb(249,208,1);
+  --peach: rgb(227,167,101);
+  --lightest-grey: whitesmoke;
+  --light-grey: rgb(171, 178, 182);
+  --grey: rgb(135, 144, 150);
+  --bright-blue: rgb(101, 222, 255);
+  --black-hover: rgb(60, 60, 60);
 }
 
 
@@ -19,9 +22,6 @@ body {
   height: 100%;
   width: 100%;
 }
-/* main {
-
-} */
 
 /* main section titles */
 h1 {
@@ -70,6 +70,10 @@ footer {
   border: none;
   box-shadow: none;
 }
+main {
+  position: relative;
+}
+
 /* end global styling */
 
 /*** HOME PAGE styling ***/
@@ -77,34 +81,24 @@ footer {
 .home-page {
   color: white;
   background-color: black;
+  position: relative;
+  /* top: 20vh; */
+}
+#hero-container {
+  position: relative;
+  height: max-content;
 }
 #hero-background-img {
-  height: 35vh;
-}
-#hero-img-wrapper {
-  position: absolute;
-    top: 3rem;
-  display: flex;
-  justify-content: flex-end;
-  z-index: 0;
-  height: 35vh;
-  /* border: 2px solid hotpink; */
+  height: 16rem;
+  position: relative;
+  margin: 0;
 }
 #hero-headshot {
-  width: 100%;
-  /* position: absolute;
+  position: absolute;
   bottom: 0;
-  left: 0; */
-  /* border: 2px solid lime; */
-}
-#hero-text {
+  left: 0;
+  width: 100%;
   z-index: 5;
-  width: 95%;
-  height: 90%;
-  opacity: 0.85;
-  position: relative;
-  top: 1rem;
-  /* border: 2px solid rgb(144, 0, 255); */
 }
 
 /* Hero transition img */
@@ -114,6 +108,8 @@ footer {
   height: 12vh;
   margin: 0;
   top: 0px;
+  position: relative;
+  z-index: 5;
 }
 
 /* HOME PAGE FEATURE styling */
@@ -121,4 +117,59 @@ footer {
 /* to blend background colors smoothly */
 #homepage-feature {
   background: linear-gradient( rgb(9,7,0) 25%, black 95%);
+}
+.homepage-text {
+  display: flex;
+  flex-direction: column;
+}
+p.homepage-text {
+  padding: 0;
+}
+#greeting1 {
+  color: var(--bright-blue);
+  font-family: 'IBM Plex Mono', monospace;
+  position: relative;
+    bottom: 1rem;
+}
+#greeting-name {
+  color: var(--lightest-grey);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 1.95rem;
+  line-height: 2.3rem;
+}
+#greeting-statement {
+  color: var(--light-grey);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 1.85rem;
+  line-height: 2.3rem;
+}
+#greeting-blurb {
+  color: var(--grey);
+  font-family: 'Rubik', sans-serif;
+  position: relative;
+    top: 1rem;
+}
+#greeting-blurb a{
+  color: var(--bright-blue);
+}
+#greeting-blurb a:link{
+  color: var(--bright-blue);
+}
+#greeting-blurb a:visited{
+  color: var(--bright-blue);
+}
+#homepage-feature button a {
+  color: var(--bright-blue);
+  border: 1px solid var(--bright-blue);
+  border-radius: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  padding: 0.75rem;
+  position: relative;
+    top: 2.75rem;
+}
+#homepage-feature button a:hover {
+  background-color: var(--black-hover);
 }
