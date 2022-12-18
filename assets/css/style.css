@@ -135,6 +135,7 @@ main {
 }
 p.homepage-text {
   padding: 0;
+  
 }
 #greeting1 {
   color: var(--bright-blue);
