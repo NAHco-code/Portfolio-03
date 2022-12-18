@@ -2,15 +2,10 @@
 
 img#about-page {
 	background-color: white;
-	position: relative;
-	bottom: 0.15rem;
-	z-index: 3;
+	display: flex;
 }
 div.about-page {
 	background-color: white;
-	position: relative;
-	bottom: 0.175rem;
-
 }
 .recent-tech-list {
 	display: flex;
@@ -42,34 +37,4 @@ div.about-page {
 	top: .25rem;
 	height: 2.5rem;
 	width: 2.5rem;
-	/* z-index: 4; */
 }
-
-
-/* .thumbnail {
-	display: flex;
-	margin: auto;
-}
-div.img-bank-wrapper {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	z-index: 1;
-	margin-bottom: 2rem;
-}
-.feat-about {
-	border-radius: 5px;
-	border-width: 7px;
-	border-color: rgba(250, 250, 250, 0.863);
-	margin-bottom: 5%;
-	height: 15rem;
-	width: 90vw;
-}
-.img-bank {
-	display: flex;
-	overflow: scroll;
-}
-.about-image {
-	margin: 0 0.15rem;
-} */

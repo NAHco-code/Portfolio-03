@@ -27,9 +27,8 @@ h4:hover {
 .portfolio-page {
 	background-color: black;
 	color: white;
-	position: relative;
+	/* position: relative; */
 	height: max-content;
-	bottom: .05rem;
 }
 .portfolio-sec {
 	position: relative;
@@ -78,7 +77,6 @@ ul.info-links {
 	font-size: 0.75rem;
 	font-weight: 300;
 	margin-right: 0.75rem;
-	/* text-decoration: underline; */
 }
 .proj-link:link {
 	/* color: rgb(197, 202, 255); */
@@ -100,15 +98,7 @@ ul.info-links {
 
 /* Tech button modal  */
 
-/* overriding foundation css */
-/* html.is-reveal-open {
 
-} */
-/* .reveal-overlay { */
-	/* height: 20rem!important;
-	width: 20rem!important; */
-	/* margin: auto!important; */
-/* } */
 ul.info-links li {
 	list-style: none;
 	font-weight: 700;
