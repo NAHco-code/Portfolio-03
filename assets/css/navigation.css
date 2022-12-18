@@ -1,11 +1,9 @@
-/* Navigation Bar Styling */
+/* ----------- Navigation Bar ----------- */
 
-/* nav section container */
 .nav-wrapper {
 	height: 3rem;
 	position: relative;
 }
-/* nav items wrapper */
 .nav {
 	background-color: var(--dark-dark);
 	display: flex;
@@ -17,7 +15,6 @@
 	z-index: 4;
 	padding: 0 !important;
 }
-
 div.nav-1 {
 	display: flex;
 	justify-content: flex-start;
@@ -29,7 +26,6 @@ div.nav-1 {
 }
 a.home-link {
 	display: flex;
-	/* width: 3rem; */
 	height: 90%;
 	padding: 0.25rem 0.25rem;
 	margin: 0.15rem;
@@ -43,11 +39,14 @@ a.home-link {
 	margin: 0 2rem;
 	width: 60vw;
 }
-
+div.nav-2 ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
 a.navbar-links {
 	padding: 0.5rem;
 }
-
 .nav2 li:hover,
 .navbar-links:hover,
 a.home-link:hover,
@@ -66,7 +65,8 @@ a.navbar-links
 	height: 1.5rem;
 }
 
-/* Mobile Styling */
+/* ----------- Responsive Menu ----------- */
+
 a#toggle-mobile-menu {
 	position: absolute;
 	right: 1rem;
@@ -104,13 +104,35 @@ a#toggle-mobile-menu {
 .nav-2 li {
 	list-style: none;
 }
+.nav-2,
+	.nav-2 ul,
+	.nav-2 li
+	.nav-2 a.navbar-links {
+		width: 100% !important;
+		margin: 0;
+	}
+a.navbar-links {
+	height: 1.5rem;
+	padding: auto 0.5rem;
+}
+.nav-2 ul {
+	margin-right: 1rem;
+}
 
-@media (max-width: 425px) {
+/* ----------- MEDIA QUERIES ----------- */
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+/* ----------- Responsive Menu ----------- */
 
 	a#toggle-mobile-menu {
 		display: flex;
 	}
-
 	.nav-2 {
 		display: none;
 		width: 100vw;
@@ -126,13 +148,39 @@ a#toggle-mobile-menu {
 		width: 100% !important;
 		margin: 0;
 	}
-	/* .nav-2 li {
-
-	} */
 	a.navbar-links {
 		height: 1.5rem;
 		padding: 0.25rem;
 	}
+	.nav-2.active,
+	a.navbar-links {
+		display: flex !important;
+		justify-content: center;
+		width: 100vw !important;
+	}
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	a#toggle-mobile-menu {
+		display: flex;
+	}
+	.nav-2 {
+		display: none;
+		width: 100vw;
+		position: absolute;
+		top: 2.73rem;
+		background-color: rgb(22, 22, 22);
+		padding-bottom: 0.25rem !important;
+	}
+
+
 	.nav-2.active,
 	a.navbar-links {
 		display: flex !important;
