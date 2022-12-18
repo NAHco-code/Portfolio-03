@@ -14,7 +14,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&family=Trirong&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&family=Trirong&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&family=Source+Sans+Pro:wght@300&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Rubik+80s+Fade&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Libre+Franklin&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Rubik&family=Trirong&display=swap"
     rel="stylesheet">
@@ -98,24 +98,12 @@
       </div><!-- end home page -->
 
       <!-- ABOUT PAGE -->
-      <div class="about-page">
+      <div class="about-page padding">
         <!-- About Page: Header section -->
-        <div class="padding">
           <h1>
             about.
           </h1>
-          <!-- TODO: Refactor blurb + make it an accordian -->
-          <p>
-            Native to Columbus Ohio, where you can find me exploring new areas of town in search of good food & drink,
-            hanging out at metro parks with my dog, playing music, starting a new DIY project, or watching the latest
-            episode of Handmaid's Tale on Netflix.
-          </p>
-        </div>
-
-        <!-- About Page: Image section -->
-        <div class="">
-          <!---TODO: media query to center div + stretch on wide screen --->
-          <div class="img-bank-wrapper">
+          <!-- <div class="img-bank-wrapper">
             <h3>Crew</h3>
             <div class="img-bank thumbnail feat-about">
               <img class="about-image" src="./assets/images/about/people/brothers-wedding.jpg">
@@ -128,9 +116,52 @@
               <img class="about-image" src="./assets/images/about/pets/starky-boy.jpg">
               <img class="about-image" src="./assets/images/about/pets/ollie.jpg">
             </div>
-          </div>
+          </div> -->
+          <!-- TODO: Refactor blurb + make it an accordian -->
+          <p>
+            Hello! My name is Kathryn and I enjoy creating things.  Native to Columbus Ohio, where you can find me exploring new areas of town in search of good food & drink,
+            hanging out at metro parks with my dog, playing music, starting a new DIY project, or watching the latest
+            episode of Handmaid's Tale on Netflix.
+          </p>
+          <p>
+            Here are a few technologies I've been working with recently:
+            <ul class="recent-tech-list">
+              <div id="tech-list-1" class="both-tech-lists">
+                <li class="tech-li">
+                  <span></span>
+                  JavaScript (ES6+)
+                </li>
+                <li class="tech-li">
+                  <span></span>
+                  React
+                </li>
+                <li class="tech-li">
+                  <span></span>
+                  Node.js
+                </li>
+              </div>
+              <div id="tech-list-2" class="both-tech-lists">
+                <li class="tech-li">
+                  <span></span>
+                  MongoDb
+                </li>
+                <li class="tech-li">
+                  <span></span>
+                  Express
+                </li>
+                <li class="tech-li">
+                  <span></span>
+                  Web APIs
+                </li>
+              </div>
+            </ul>
+          </p>
 
-          <div class="img-bank-wrapper">
+        <!-- About Page: Image section -->
+          <!---TODO: media query to center div + stretch on wide screen --->
+
+
+          <!-- <div class="img-bank-wrapper">
             <h3>Creations</h3>
             <div class="img-bank thumbnail feat-about">
               <img class="about-image" src="./assets/images/about/art-stuff/fineart-acryllic-soul-dust.jpg">
@@ -140,8 +171,8 @@
               <img class="about-image" src="./assets/images/about/art-stuff/nahco-theme3.jpg">
               <img class="about-image" src="./assets/images/about/art-stuff/nahco-theme4.jpg">
             </div>
-          </div>
-        </div><!-- end about page image section -->
+          </div> -->
+        <!-- end about page image section -->
       </div><!-- end about page -->
 
       <!-- transition image -->
@@ -347,7 +378,7 @@
       </div><!-- end portfolio page -->
 
       <!-- transition image -->
-      <img class='fade3' src='./assets/images/main/black-white-fade-WHITE.PNG'>
+      <img class='sec-position' src='./assets/images/main/black-white-fade-WHITE.PNG'>
 
       <!-- SKILLS PAGE -->
       <div class="skills-page padding" id='skills-page'>

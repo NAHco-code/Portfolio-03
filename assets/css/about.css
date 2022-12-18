@@ -1,12 +1,52 @@
 /* ABOUT PAGE */
 
-img.about-page {
+img#about-page {
 	background-color: white;
-	color: black;
 	position: relative;
-	bottom: 2rem;
+	bottom: 0.15rem;
+	z-index: 3;
 }
-.thumbnail {
+div.about-page {
+	background-color: white;
+	position: relative;
+	bottom: 0.15rem;
+
+}
+.recent-tech-list {
+	display: flex;
+	font-family: 'Roboto Mono', monospace;
+	list-style: none;
+	position: relative;
+	margin: 0;
+}
+.both-tech-lists {
+	display: flex;
+	flex-direction: column;
+}
+#tech-list-1 {
+	margin-left: 1rem;
+	margin-right: 2.5rem;
+}
+.tech-li {
+	position: relative;
+}
+.tech-li span {
+	position: absolute;
+	display: block;
+	background-image: url(../icons/arrows/arrowhead.png);
+	background-repeat: no-repeat;
+	background-size: 0.5rem;
+	background-position: 0 .3em;
+	text-indent: -1rem;
+	left: -1rem;
+	top: .25rem;
+	height: 2.5rem;
+	width: 2.5rem;
+	/* z-index: 4; */
+}
+
+
+/* .thumbnail {
 	display: flex;
 	margin: auto;
 }
@@ -22,7 +62,7 @@ div.img-bank-wrapper {
 	border-radius: 5px;
 	border-width: 7px;
 	border-color: rgba(250, 250, 250, 0.863);
-	/* margin-bottom: 5%; */
+	margin-bottom: 5%;
 	height: 15rem;
 	width: 90vw;
 }
@@ -32,4 +72,4 @@ div.img-bank-wrapper {
 }
 .about-image {
 	margin: 0 0.15rem;
-}
+} */

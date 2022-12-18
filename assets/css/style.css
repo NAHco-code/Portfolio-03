@@ -1,14 +1,15 @@
 /* CSS VARIABLES */
 :root {
   --slate: rgb(93,109,124);
-  --black: rgb(0,0,0);
+  --light-slate: rgb(197, 203, 255);
   --gold: rgb(249,208,1);
-  --peach: rgb(227,167,101);
+  --peach: rgb(255, 178, 96);
   --lightest-grey: whitesmoke;
-  --light-grey: rgb(171, 178, 182);
+  --light-grey: rgb(139, 145, 156);
   --grey: rgb(135, 144, 150);
-  --bright-blue: rgb(101, 222, 255);
-  --black-hover: rgb(60, 60, 60);
+  --bright-blue: rgb(73, 225, 255);
+  --dark-hover: rgb(60, 60, 60);
+  --dark-dark: rgb(15, 16, 20);
 }
 
 
@@ -21,11 +22,11 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* main section titles */
 h1 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 4em;
   font-weight: 700;
   letter-spacing: -0.06em;
@@ -33,7 +34,6 @@ h1 {
 }
 /* about section sub-headings */
 h3 {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 	background-color: rgba(187, 173, 181, 0.5);
 	color: white;
@@ -49,9 +49,12 @@ h6 {
 }
 /* about & portfolio blurbs */
 p {
-  font-family: 'Montserrat', sans-serif;
-  padding: 0.5em 2em 0 1em;
-  font-size: 0.75rem;
+  padding: 0.5em 1.5em 0 0.15rem;
+  font-size: .905rem;
+}
+img {
+  margin: 0 !important;
+  border: none !important;
 }
 footer {
   position: relative;
@@ -62,25 +65,27 @@ footer {
 }
 
 /* PAGE POSITIONING */
-
-/* padding for outer container for each main section */
-.padding {
-  padding: 1rem;
-  margin: auto;
-  border: none;
-  box-shadow: none;
-}
 main {
   position: relative;
 }
-
+/* padding for outer container for each main section */
+.padding {
+  padding: 1.25rem;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+.sec-position {
+  position: relative;
+  bottom: .05rem;
+}
 /* end global styling */
 
 /*** HOME PAGE styling ***/
 
 .home-page {
   color: white;
-  background-color: black;
+  background-color: var(--dark-dark);
   position: relative;
   /* top: 20vh; */
 }
@@ -89,7 +94,7 @@ main {
   height: max-content;
 }
 #hero-background-img {
-  height: 16rem;
+  height: 15.25rem;
   position: relative;
   margin: 0;
 }
@@ -98,7 +103,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 5;
+  z-index: 1;
 }
 
 /* Hero transition img */
@@ -109,14 +114,20 @@ main {
   margin: 0;
   top: 0px;
   position: relative;
-  z-index: 5;
+  z-index: 3;
 }
 
 /* HOME PAGE FEATURE styling */
 
 /* to blend background colors smoothly */
 #homepage-feature {
-  background: linear-gradient( rgb(9,7,0) 25%, black 95%);
+  background: linear-gradient( rgb(9,7,0) 25%, rgb(1, 1, 1) 95%);
+  padding-top: 1.75rem;
+  padding-bottom: 3rem;
+  padding-right: 1.25rem;
+  position: relative;
+  bottom: 0.15rem;
+  z-index: 2;
 }
 .homepage-text {
   display: flex;
@@ -128,28 +139,35 @@ p.homepage-text {
 #greeting1 {
   color: var(--bright-blue);
   font-family: 'IBM Plex Mono', monospace;
+  font-size: .925rem;
+  font-weight: 500;
   position: relative;
-    bottom: 1rem;
+    bottom: 1.75rem;
+  padding-top: 0.5rem;
 }
 #greeting-name {
   color: var(--lightest-grey);
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 1.95rem;
-  line-height: 2.3rem;
+  line-height: 2.75rem;
+  position: relative;
+  bottom: .9rem;
 }
 #greeting-statement {
   color: var(--light-grey);
-  font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  font-size: 1.85rem;
-  line-height: 2.3rem;
+  font-size: 1.95rem;
+  line-height: 2.15rem;
+  position: relative;
+  bottom: .875rem;
 }
 #greeting-blurb {
   color: var(--grey);
-  font-family: 'Rubik', sans-serif;
   position: relative;
-    top: 1rem;
+    top: .25rem;
+  font-weight: 400;
+  font-size: 0.85rem;
 }
 #greeting-blurb a{
   color: var(--bright-blue);
@@ -168,8 +186,8 @@ p.homepage-text {
   font-size: 0.75rem;
   padding: 0.75rem;
   position: relative;
-    top: 2.75rem;
+    top: 1rem;
 }
 #homepage-feature button a:hover {
-  background-color: var(--black-hover);
+  background-color: var(--dark-hover);
 }
