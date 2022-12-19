@@ -39,10 +39,11 @@ a.home-link {
 	margin: 0 2rem;
 	width: 60vw;
 }
-div.nav-2 ul {
+.nav-2 ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	width: 100%;
 }
 a.navbar-links {
 	padding: 0.5rem;
@@ -99,10 +100,10 @@ a#toggle-mobile-menu {
 	margin: 0;
 	padding: 0;
 	display: flex;
-	flex-direction: column;
 }
 .nav-2 li {
 	list-style: none;
+	position: relative;
 }
 .nav-2,
 	.nav-2 ul,
@@ -120,16 +121,8 @@ a.navbar-links {
 }
 
 /* ----------- MEDIA QUERIES ----------- */
-/* ----------- iPhone 4 and 4S ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-/* ----------- Responsive Menu ----------- */
-
+@media (max-width: 667px) {
 	a#toggle-mobile-menu {
 		display: flex;
 	}
@@ -148,6 +141,9 @@ a.navbar-links {
 		width: 100% !important;
 		margin: 0;
 	}
+	.nav-2 ul {
+		flex-direction: column;
+	}
 	a.navbar-links {
 		height: 1.5rem;
 		padding: 0.25rem;
@@ -159,11 +155,30 @@ a.navbar-links {
 		width: 100vw !important;
 	}
 }
+@media (min-width: 667px) {
+	.nav-2 ul {
+		flex-direction: row;
+	}
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+/* ----------- Responsive Menu ----------- */
+
+
+}
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait and Landscape */
-@media only screen
+/* @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -187,11 +202,11 @@ a.navbar-links {
 		justify-content: center;
 		width: 100vw !important;
 	}
-}
+} */
 /* ----------- iPad Pro 10.5" ----------- */
 
 /* Portrait and Landscape */
-@media only screen
+/* @media only screen
   and (min-device-width: 834px)
   and (max-device-width: 1112px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -203,4 +218,4 @@ a.navbar-links {
 		padding-right: 1rem;
 	}
 
-}
+} */
