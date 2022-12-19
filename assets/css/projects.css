@@ -101,7 +101,12 @@ ul.info-links {
 	/* text-shadow: 0px 0.5px 0.25px #ffffff; */
 	text-decoration: underline;
 }
-
+.proj-link i {
+	color: rgb(175, 195, 201);
+}
+.proj-link i:hover {
+	color: var(--bright-blue);
+}
 /* Tech button modal  */
 
 
