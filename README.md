@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 
-Professional portfolio created using Foundation UI Framework
+Professional portfolio
 
 ## Table of Contents
 
