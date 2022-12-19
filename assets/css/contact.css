@@ -34,9 +34,22 @@
 .contact-links:visited {
 	color: rgb(36, 190, 221);
 }
-.contact-links:hover {
+a.contact-links:hover {
 	background-color: rgb(155, 185, 213);
-	border-color: rgb(166, 240, 255);
 	color: rgb(181, 243, 255);
 }
+button.contact-btn:hover {
+
+	border-color: rgb(166, 240, 255);
+
+}
+#email-btn {
+	display: flex;
+	justify-content: center;
+}
+/* #email-btn::after {
+	display: flex;
+	justify-content: center;
+	font-size: 0.5rem;
+} */
   /* end contact page styling */
