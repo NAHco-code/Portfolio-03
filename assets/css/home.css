@@ -99,13 +99,21 @@ p.homepage-text {
 #greeting-blurb a:visited{
 	color: var(--bright-blue);
 }
+.homepage-btn-wrapper,
+.homepage-btn-wrapper button {
+	display: flex;
+}
+.homepage-btn-wrapper button {
+	justify-content: space-between;
+	margin: auto;
+}
 #homepage-feature button a {
 	color: var(--bright-blue);
 	border: 1px solid var(--bright-blue);
 	border-radius: 5px;
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 0.75rem;
-	padding: 0.75rem;
+	font-size: 0.6rem;
+	padding: 0.6rem;
 	position: relative;
 	  top: 1rem;
 }
