@@ -1,0 +1,251 @@
+/*** HOME PAGE styling ***/
+
+.home-page {
+	color: white;
+	background-color: var(--dark-dark);
+	position: relative;
+}
+#hero-container {
+	position: relative;
+	height: max-content;
+}
+#hero-background-img {
+	position: relative;
+	margin: 0;
+	display: flex;
+	width: 100%;
+}
+#hero-headshot {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 83%;
+	z-index: 1;
+	display: flex;
+}
+
+/* Hero transition img */
+.header-mirror {
+	background-image: url(../images/main/header-img-mirror.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 3.65rem;
+	margin: 0;
+	top: 0px;
+	position: relative;
+	z-index: 3;
+	display: flex;
+	width: 100%;
+  }
+
+  /* HOME PAGE FEATURE styling */
+
+  /* to blend background colors smoothly */
+#homepage-feature {
+	background: linear-gradient( rgb(9,7,0) 25%, rgb(1, 1, 1) 95%);
+	padding-top: 1.75rem;
+	padding-bottom: 3rem;
+	padding-right: 1.25rem;
+	position: relative;
+	bottom: 0.15rem;
+	z-index: 2;
+}
+.homepage-text {
+	display: flex;
+	flex-direction: column;
+}
+p.homepage-text {
+	padding: 0;
+}
+#greeting1 {
+	color: var(--bright-blue);
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: .925rem;
+	font-weight: 500;
+	position: relative;
+	  bottom: 1.75rem;
+	padding-top: 0.5rem;
+}
+#greeting-name {
+	color: var(--lightest-grey);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1.95rem;
+	line-height: 2.75rem;
+	position: relative;
+	bottom: .9rem;
+}
+#greeting-statement {
+	color: var(--light-grey);
+	font-weight: 700;
+	font-size: 1.95rem;
+	line-height: 2.15rem;
+	position: relative;
+	bottom: .875rem;
+}
+#greeting-blurb {
+	color: var(--grey);
+	position: relative;
+	  top: .25rem;
+	font-weight: 400;
+	font-size: 0.85rem;
+}
+#greeting-blurb a{
+	color: var(--bright-blue);
+}
+#greeting-blurb a:link{
+	color: var(--bright-blue);
+}
+#greeting-blurb a:visited{
+	color: var(--bright-blue);
+}
+.homepage-btn-wrapper,
+.homepage-btn-wrapper button {
+	display: flex;
+}
+.homepage-btn-wrapper button {
+	justify-content: center;
+	margin-right: 1rem;
+}
+#homepage-feature button a {
+	color: var(--bright-blue);
+	border: 1px solid var(--bright-blue);
+	border-radius: 5px;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 0.6rem;
+	padding: 0.6rem;
+	position: relative;
+	  top: 1rem;
+}
+#homepage-feature button a:hover {
+	background-color: var(--dark-hover);
+}
+
+/* ----------- MEDIA QUERIES ----------- */
+
+@media (min-width: 375px) {
+
+	.header-mirror {
+		height: 4.25rem;
+	}
+}
+@media (max-width: 375px) {
+	#hero-headshot {
+		width: 85%;
+	}
+}
+@media (min-width: 414px) {
+
+	.header-mirror {
+		height: 4.7rem;
+	}
+}
+@media (min-width: 568px) {
+
+	.header-mirror {
+		height: 6.3rem;
+	}
+}
+@media (min-width: 667px) {
+
+	.header-mirror {
+		height: 7.5rem;
+	}
+}
+@media (min-width: 736px) {
+
+	.header-mirror {
+		height: 8.25rem;
+	}
+}
+@media (min-width: 768px) {
+
+	.header-mirror {
+		height: 8.5rem;
+	}
+}
+@media (min-width: 812px) {
+
+	.header-mirror {
+		height: 9rem;
+	}
+}
+@media (min-width: 834px) {
+
+	.header-mirror {
+		height: 9.25rem;
+	}
+}
+@media (min-width: 1024px) {
+
+	.header-mirror {
+		height: 11.4rem;
+	}
+}
+@media (min-width: 1112px) {
+
+	.header-mirror {
+		height: 12.4rem;
+	}
+}
+@media (min-width: 1366px) {
+
+	.header-mirror {
+		height: 15.175rem;
+	}
+}
+@media (min-width: 1440px) {
+
+	.header-mirror {
+		height: 16rem;
+	}
+}
+@media (min-width: 1680px) {
+
+	.header-mirror {
+		height: 18.6rem;
+	}
+}
+@media (min-width: 1920px) {
+
+	.header-mirror {
+		height: 21.25rem;
+	}
+}
+
+
+  /* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	#homepage-feature {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
+	}
+	.homepage-text span {
+		padding-right: 5rem;
+	}
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1112px)
+and (max-device-width: 1112px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+
+/* #hero-background-img {
+	position: relative;
+	margin: 0;
+	display: flex;
+  } */

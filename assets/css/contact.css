@@ -1,0 +1,42 @@
+
+/* CONTACT PAGE */
+
+.contact-btn-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	height: max-content;
+}
+.contact-btn {
+	background-color: rgb(227, 235, 244);
+	color: var(--bright-blue);
+	border: 1px solid var(--bright-blue);
+	border-radius: 5px;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 1rem;
+	margin: 0.5rem 5rem;
+}
+.contact-btn:first-child {
+	margin-top: 2rem;
+}
+.contact-links {
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	padding: 0.75rem;
+	color: rgb(36, 190, 221);
+	font-weight: 600;
+}
+.contact-links:link,
+.contact-links:visited {
+	color: rgb(36, 190, 221);
+}
+.contact-links:hover {
+	background-color: rgb(155, 185, 213);
+	border-color: rgb(166, 240, 255);
+	color: rgb(181, 243, 255);
+}
+  /* end contact page styling */

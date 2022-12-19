@@ -1,30 +1,40 @@
-.img-bank-wrapper {
-	position: relative;
+/* ABOUT PAGE */
+
+img#about-page {
+	background-color: white;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	z-index: 1;
 }
-.feat-about {
-	border-radius: 5px;
-	border-width: 7px;
-	border-color: rgba(250, 250, 250, 0.863);
-	margin-bottom: 5%;
-	height: 15rem;
-	width: 90vw;
+div.about-page {
+	background-color: white;
 }
-h3 {
-	/* position: absolute; */
-	background-color: rgba(187, 173, 181, 0.396);
-	color: whitesmoke;
-	width: 90%;
-	text-align: center;
+.recent-tech-list {
+	display: flex;
+	font-family: 'Roboto Mono', monospace;
+	list-style: none;
+	position: relative;
 	margin: 0;
 }
-.img-bank {
+.both-tech-lists {
 	display: flex;
-	overflow: scroll;
+	flex-direction: column;
 }
-.about-image {
-	margin: 0 0.15rem;
+#tech-list-1 {
+	margin-left: 1rem;
+	margin-right: 2.5rem;
+}
+.tech-li {
+	position: relative;
+}
+.tech-li span {
+	position: absolute;
+	display: block;
+	background-image: url(../icons/arrows/arrowhead.png);
+	background-repeat: no-repeat;
+	background-size: 0.5rem;
+	background-position: 0 .3em;
+	text-indent: -1rem;
+	left: -1rem;
+	top: .25rem;
+	height: 2.5rem;
+	width: 2.5rem;
 }

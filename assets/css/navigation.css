@@ -1,0 +1,221 @@
+/* ----------- Navigation Bar ----------- */
+
+.nav-wrapper {
+	height: 3rem;
+	position: relative;
+}
+.nav {
+	background-color: var(--dark-dark);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 3rem;
+	position: fixed;
+	z-index: 4;
+	padding: 0 !important;
+}
+div.nav-1 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+	left: 0.5rem;
+	margin: 0;
+	height: 100%;
+}
+a.home-link {
+	display: flex;
+	height: 90%;
+	padding: 0.25rem 0.25rem;
+	margin: 0.15rem;
+	border-radius: 50px;
+}
+.nav-2 {
+	display: flex;
+	flex: 2 1 60%;
+	justify-content: space-evenly;
+	font-size: 0.75rem;
+	margin: 0 2rem;
+	width: 60vw;
+}
+.nav-2 ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100%;
+}
+a.navbar-links {
+	padding: 0.5rem;
+}
+.nav2 li:hover,
+.navbar-links:hover,
+a.home-link:hover,
+a#toggle-mobile-menu:hover {
+	background-color: var(--dark-hover);
+}
+a.navbar-links:link {
+	color: white;
+}
+a.navbar-links:visited {
+	color: white;
+}
+a.navbar-links
+.nav-icons {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+/* ----------- Responsive Menu ----------- */
+
+a#toggle-mobile-menu {
+	position: absolute;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 0.15px solid rgb(33, 33, 33);
+	padding: 0.225rem;
+	border-radius: 5px;
+}
+#toggle-mobile-menu .bar {
+	/* background-color: white; */
+	border-radius: 10px;
+	width: 1.125rem;
+	height: 0.085rem;
+	margin: 0.16rem 0;
+	display: flex;
+}
+#bar1 {
+	background-color: white;
+}
+#bar2 {
+	background-color: rgb(225, 225, 225);
+}
+#bar3 {
+	background-color: rgb(200, 200, 200);
+}
+.nav-2 ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.nav-2 li {
+	list-style: none;
+	position: relative;
+}
+.nav-2,
+	.nav-2 ul,
+	.nav-2 li
+	.nav-2 a.navbar-links {
+		width: 100% !important;
+		margin: 0;
+	}
+a.navbar-links {
+	height: 1.5rem;
+	padding: auto 0.5rem;
+}
+.nav-2 ul {
+	margin-right: 1rem;
+}
+
+/* ----------- MEDIA QUERIES ----------- */
+
+@media (max-width: 667px) {
+	a#toggle-mobile-menu {
+		display: flex;
+	}
+	.nav-2 {
+		display: none;
+		width: 100vw;
+		position: absolute;
+		top: 2.73rem;
+		background-color: rgb(22, 22, 22);
+		padding-bottom: 0.25rem !important;
+	}
+	.nav-2,
+	.nav-2 ul,
+	.nav-2 li
+	.nav-2 a.navbar-links {
+		width: 100% !important;
+		margin: 0;
+	}
+	.nav-2 ul {
+		flex-direction: column;
+	}
+	a.navbar-links {
+		height: 1.5rem;
+		padding: 0.25rem;
+	}
+	.nav-2.active,
+	a.navbar-links {
+		display: flex !important;
+		justify-content: center;
+		width: 100vw !important;
+	}
+}
+@media (min-width: 667px) {
+	.nav-2 ul {
+		flex-direction: row;
+	}
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+/* ----------- Responsive Menu ----------- */
+
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	a#toggle-mobile-menu {
+		display: flex;
+	}
+	.nav-2 {
+		display: none;
+		width: 100vw;
+		position: absolute;
+		top: 2.73rem;
+		background-color: rgb(22, 22, 22);
+		padding-bottom: 0.25rem !important;
+	}
+
+
+	.nav-2.active,
+	a.navbar-links {
+		display: flex !important;
+		justify-content: center;
+		width: 100vw !important;
+	}
+} */
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.nav-1 {
+		padding-left: 1.5rem;
+	}
+	.nav-2 {
+		padding-right: 1rem;
+	}
+
+} */
