@@ -104,8 +104,8 @@ p.homepage-text {
 	display: flex;
 }
 .homepage-btn-wrapper button {
-	justify-content: space-between;
-	margin: auto;
+	justify-content: center;
+	margin-right: 1rem;
 }
 #homepage-feature button a {
 	color: var(--bright-blue);
