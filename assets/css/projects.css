@@ -12,7 +12,7 @@ img#portfolio-page {
 }
 /* portfolio section project card headings */
 h4 {
-	color: var(--lightest-grey);
+	color:rgb(175, 195, 201);
 	font-family: 'Poppins', 'Montserrat', sans-serif;
 	font-weight: 600;
 	font-size: 1.85rem;
@@ -41,12 +41,17 @@ h4:hover {
 	display: flex;
 	flex-direction: column;
 	margin: 1rem;
-	border-radius: 5px;
+	border-radius: 2px;
 	background-color: rgba(12, 42, 70, 0.512);
 	box-shadow: 2px 2px 2px 5px black;
 }
 .project-display:last-child {
 	padding-bottom: 1rem;
+}
+.proj-description {
+	color: rgb(175, 195, 201);
+	font-size: 0.75rem;
+	font-family: 'Open Sans', sans-serif;
 }
 .proj-tech {
 	display: flex;
@@ -55,6 +60,8 @@ h4:hover {
 	flex-wrap: wrap;
 	font-size: 0.75rem;
 	margin: 0;
+	font-family: 'Noto Sans', monospace;
+	color: rgb(175, 195, 201);
 }
 .proj-tech li {
 	margin-right: 1rem;
@@ -69,11 +76,10 @@ ul.info-links {
 	width: 75vw;
 }
 .proj-link {
-	color: var(--light-grey);
+
 	width: max-content;
 	height: max-content;
 	border-radius: 5px;
-	font-family: 'Roboto Mono', monospace;
 	font-size: 0.75rem;
 	font-weight: 300;
 	margin-right: 0.75rem;

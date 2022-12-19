@@ -57,8 +57,9 @@
             <li><a href="#about-page" class="navbar-links">about</a></li>
             <li><a href="#portfolio-page" class="navbar-links">projects</a></li>
             <li><a href="#skills-page" class="navbar-links">skills</a></li>
-            <li><a href="./assets/resume/k.wilkinson-resume.pdf" target="./assets/resume/k.wilkinson-resume.pdf"
-                class="navbar-links">resume</a></li>
+            <li><a href="#contact-page" class="navbar-links">contact</a></li>
+            <!-- <li><a href="./assets/resume/k.wilkinson-resume.pdf" target="./assets/resume/k.wilkinson-resume.pdf"
+                class="navbar-links">resume</a></li> -->
           </ul>
         </div>
       </nav>
@@ -96,12 +97,12 @@
         </div><!-- end home page content -->
 
         <!-- transition image -->
-        <img id='about-page' class='fade' src='./assets/images/main/black-white-fade-WHITE.PNG'>
+        <img class="fade" src="./assets/images/main/black-white-fade-WHITE.PNG">
 
       </div><!-- end home page -->
 
       <!-- ABOUT PAGE -->
-      <div class="about-page padding">
+      <div id="about-page" class="about-page padding">
         <!-- About Page: Header section -->
           <h1>
             about.
@@ -206,17 +207,18 @@
             <p class="featured-proj-text">Featured Project</p>
             <h4>Fleet Manager</h4>
 
-            <p class="proj-description"></p>
+            <p class="proj-description">Utilized the MERN stack to create an application that allows a business to effectively manage their WorkForce while streamlining communication between administrators and their employees</p>
             <ul class="proj-tech">
-            <li>MongoDb</li>
-            <li>Express</li>
-            <li>React (+Hooks)</li>
-            <li>NodeJS</li>
-            <li>PassportJS</li>
-            <li>SortableJS</li>
-            <!-- <li>MomentJS</li> -->
-            <!-- <li>react-material-ui</li> -->
-          </ul>
+              <li>React (+Hooks)</li>
+              <li>Express</li>
+              <li>NodeJS</li>
+              <li>Mongoose</li>
+              <li>Third Party API fetch</li>
+              <li>PassportJS</li>
+              <li>SortableJS</li>
+              <li>Material UI</li>
+              <li>Heroku</li>
+            </ul>
             <ul class='info-links'>
               <!-- <li class="tech-info"> -->
                 <!-- Link to Project Info  -->
@@ -241,11 +243,15 @@
           <div class="project-display padding">
             <p class="featured-proj-text">Featured Project</p>
             <h4>Covid Tracker</h4>
-            <p class="proj-description"></p>
+            <p class="proj-description">This application uses third party API's which allow the user to view detailed, regularly updated and complete statistics. Providing users the ability to easily asses the current COVID climate between multiple regions.</p>
             <ul class="proj-tech">
-                <li>MomentJS</li>
-                <li>3rd Party APIs</li>
-                </ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript/jQuery</li>
+              <li>Bootstrap</li>
+              <li>Third Party APIs</li>
+              <li>ChartJS</li>
+            </ul>
             <ul class='info-links'>
               <!-- <li class="tech-info"> -->
                 <!-- Link to Project Info  -->
@@ -270,10 +276,13 @@
           <div class="project-display padding">
             <p class="featured-proj-text">Featured Project</p>
             <h4>Weather App</h4>
-            <p class="proj-description"></p>
+            <p class="proj-description">A weather application that allows a user to search the weather outlook for multiple cities in the US. Includes current weather conditions and a 5 day forecast</p>
             <ul class="proj-tech">
-              <li>MomentJS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
               <li>Open Weather Map API</li>
+              <li>Local Storage</li>
             </ul>
             <ul class='info-links'>
               <!-- <li class="tech-info"> -->
@@ -299,10 +308,11 @@
           <div class="project-display padding">
             <p class="featured-proj-text">Featured Project</p>
             <h4>SQL CMS</h4>
-            <p class="proj-description"></p>
+            <p class="proj-description">A back-end Command Line Interface Employee Content-Management-System for managing company database information. Enables you to view and manage departments, roles, and exmployees quickly and easily</p>
             <ul class="proj-tech">
               <li>NodeJS</li>
               <li>Inquirer</li>
+              <li>mySQL</li>
             </ul>
             <ul class='info-links'>
               <!-- <li class="tech-info"> -->
@@ -327,12 +337,13 @@
           <!--- Project 5 --->
           <div class="project-display padding">
             <p class="featured-proj-text">Featured Project</p>
-            <h4>Employee Directory</h4>
-            <p class="proj-description"></p>
+            <h4>Team Profile Generator</h4>
+            <p class="proj-description">Utilized MySQL, Jest, and Bootstrap to create a CLI application that prompts for a team’s employee information then generates an HTML webpage displaying summaries for each employee within the team</p>
             <ul class="proj-tech">
-              <li>React</li>
-              <li>Random User API</li>
-              <li>Semantic UI React</li>
+              <li>MySQL</li>
+              <li>Jest</li>
+              <li>Bootstrap</li>
+              <li>Node.js</li>
             </ul>
             <ul class='info-links'>
               <!-- <li class="tech-info"> -->
@@ -341,13 +352,13 @@
               </li> -->
               <li>
                 <!-- Link to YouTube Demo  -->
-                <a class="proj-link" href='https://kathrynwilkinson.github.io/Employee-Directory/' target='_blank'>
+                <a class="proj-link" href='https://www.youtube.com/watch?v=sNGuD2T1TXc' target='_blank'>
                   <img src="./assets/icons/social-media/share.png">
                 </a>
               </li>
               <li>
                 <!-- Link to Source Code  -->
-                <a class="proj-link" href='https://github.com/kathrynwilkinson/Employee-Directory' target='_blank'>
+                <a class="proj-link" href='https://github.com/kathrynwilkinson/Team-Profile-Generator' target='_blank'>
                   <img src="./assets/icons/social-media/github.png">
                 </a>
               </li>
@@ -358,13 +369,14 @@
           <div class="project-display padding">
             <p class="featured-proj-text">Featured Project</p>
             <h4>E-Commerce Routing</h4>
-            <p class="proj-description"></p>
+            <p class="proj-description">This project possesses all the back-end elements of an e-commerce platform, including: a working Express.js API, sequelize models interacting with a MySQL database, and working routes</p>
             <ul class="proj-tech">
-              <li>*back-end only</li>
               <li>MVC Structure</li>
-              <li>SQL Database</li>
-              <li>sequelize</li>
-              <li>express router</li>
+              <li>MySQL</li>
+              <li>Sequelize</li>
+              <li>Express</li>
+              <li>Insomnia</li>
+              <!-- <li>Jest?</li> -->
             </ul>
             <ul class='info-links'>
               <!-- <li class="tech-info"> -->
