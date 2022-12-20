@@ -23,7 +23,6 @@
 	z-index: 1;
 	display: flex;
 }
-
 /* Hero transition img */
 .header-mirror {
 	background-image: url(../images/main/header-img-mirror.JPG);
@@ -38,17 +37,12 @@
 	width: 100%;
   }
 
-  /* HOME PAGE FEATURE styling */
+/* HOME PAGE FEATURE styling */
 
-  /* to blend background colors smoothly */
+/* to blend background colors smoothly */
 #homepage-feature {
-
-	/* padding-top: 1.75rem;
-	padding-bottom: 3rem;
-	padding-right: 1.25rem; */
 	position: relative;
 	bottom: 0.15rem;
-	z-index: 2;
 }
 .homepage-text {
 	display: flex;
@@ -124,7 +118,6 @@ p.homepage-text {
 /* ----------- MEDIA QUERIES ----------- */
 
 @media (min-width: 375px) {
-
 	.header-mirror {
 		height: 4.25rem;
 	}
@@ -135,19 +128,16 @@ p.homepage-text {
 	}
 }
 @media (min-width: 414px) {
-
 	.header-mirror {
 		height: 4.7rem;
 	}
 }
 @media (min-width: 568px) {
-
 	.header-mirror {
 		height: 6.3rem;
 	}
 }
 @media (min-width: 667px) {
-
 	.header-mirror {
 		height: 7.5rem;
 	}
@@ -159,93 +149,47 @@ p.homepage-text {
 	}
 }
 @media (min-width: 768px) {
-
 	.header-mirror {
 		height: 8.5rem;
 	}
 }
 @media (min-width: 812px) {
-
 	.header-mirror {
 		height: 9rem;
 	}
 }
 @media (min-width: 834px) {
-
 	.header-mirror {
 		height: 9.25rem;
 	}
 }
 @media (min-width: 1024px) {
-
 	.header-mirror {
 		height: 11.4rem;
 	}
 }
 @media (min-width: 1112px) {
-
 	.header-mirror {
 		height: 12.4rem;
 	}
 }
 @media (min-width: 1366px) {
-
 	.header-mirror {
 		height: 15.175rem;
 	}
 }
 @media (min-width: 1440px) {
-
 	.header-mirror {
 		height: 16rem;
 	}
 }
 @media (min-width: 1680px) {
-
 	.header-mirror {
 		height: 18.6rem;
 	}
 }
 @media (min-width: 1920px) {
-
 	.header-mirror {
 		height: 21.25rem;
 	}
 }
-
-
-  /* ----------- iPad Pro 10.5" ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 834px)
-  and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-	/* #homepage-feature {
-		padding-right: 2.5rem;
-		padding-left: 2.5rem;
-	} */
-	.homepage-text span {
-		padding-right: 5rem;
-	}
-}
-
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-and (min-device-width: 1112px)
-and (max-device-width: 1112px)
-and (orientation: landscape)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-
-}
-
-
-/* #hero-background-img {
-	position: relative;
-	margin: 0;
-	display: flex;
-  } */

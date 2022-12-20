@@ -1,4 +1,3 @@
-
 /* CONTACT PAGE */
 
 .contact-btn-wrapper {
@@ -41,23 +40,15 @@ a.contact-links:hover {
 	color: rgb(181, 243, 255);
 }
 button.contact-btn:hover {
-
 	border-color: rgb(166, 240, 255);
-
 }
 #email-btn {
 	display: flex;
 	justify-content: center;
 }
-/* #email-btn::after {
-	display: flex;
-	justify-content: center;
-	font-size: 0.5rem;
-} */
-  /* end contact page styling */
+/* end contact page styling */
 
-  @media (min-width: 414px) {
-
+@media (min-width: 414px) {
 	.contact-btn {
 		width: 12rem;
 	}

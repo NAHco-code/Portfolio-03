@@ -17,7 +17,6 @@ h4 {
 	font-weight: 600;
 	font-size: 1.85rem;
 	margin: 0;
-	/* padding-top: 0.5rem; */
 	width: 100%;
 	word-wrap: break-word;
 }
@@ -27,7 +26,6 @@ h4:hover {
 .portfolio-page {
 	background-color: black;
 	color: white;
-	/* position: relative; */
 	height: max-content;
 }
 .portfolio-sec {
@@ -110,9 +108,6 @@ ul.info-links {
 .proj-link i:hover {
 	color: var(--bright-blue);
 }
-/* Tech button modal  */
-
-
 ul.info-links li {
 	list-style: none;
 	font-weight: 700;
@@ -122,12 +117,8 @@ ul.info-links li {
 ul.info-links li a {
 	position: relative;
 }
-/* ul.info-links li,
-h6 {
-	height: 1rem;
-} */
 
-
+/* ----------- MEDIA QUERIES ----------- */
 
 @media (min-width:280px) {
 	div.portfolio-sec {
@@ -168,7 +159,6 @@ h6 {
 		font-size: 1.25rem;
 		margin-right: .5rem;
 	}
-
 }
 @media (min-width:801px) {
 	div.portfolio-sec {
