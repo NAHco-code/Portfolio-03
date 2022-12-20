@@ -2,7 +2,7 @@
 
 .home-page {
 	color: white;
-	background-color: var(--dark-dark);
+	background: linear-gradient( rgb(9,7,0) 10%, black 95%);
 	position: relative;
 }
 #hero-container {
@@ -42,10 +42,10 @@
 
   /* to blend background colors smoothly */
 #homepage-feature {
-	background: linear-gradient( rgb(9,7,0) 25%, rgb(1, 1, 1) 95%);
-	padding-top: 1.75rem;
+
+	/* padding-top: 1.75rem;
 	padding-bottom: 3rem;
-	padding-right: 1.25rem;
+	padding-right: 1.25rem; */
 	position: relative;
 	bottom: 0.15rem;
 	z-index: 2;
@@ -222,10 +222,10 @@ p.homepage-text {
   and (max-device-width: 1112px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-	#homepage-feature {
+	/* #homepage-feature {
 		padding-right: 2.5rem;
 		padding-left: 2.5rem;
-	}
+	} */
 	.homepage-text span {
 		padding-right: 5rem;
 	}

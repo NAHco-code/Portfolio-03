@@ -68,8 +68,24 @@ footer {
 
 /* padding for outer container for each main section */
 .padding {
-  padding: 1.25rem;
-  margin: 0;
+  padding-top: 1.75rem;
+	padding-bottom: 3rem;
+	padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  margin: auto;
   border: none;
   box-shadow: none;
+}
+
+@media (min-width:801px) {
+  /* big landscape tablets, laptops, and desktops */
+  .padding {
+    padding: 5rem;
+  }
+}
+@media (min-width:1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .padding {
+    max-width: 70rem;
+  }
 }

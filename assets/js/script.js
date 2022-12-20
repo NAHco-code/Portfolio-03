@@ -1,12 +1,22 @@
 const toggleButton = document.querySelector('.nav').children[1]
 const nav2 = document.querySelector('.nav').children[2]
-const navLinks = document.querySelectorAll('.navbar-links')
+// const navListItems = document.querySelectorAll('.navbar-li')
+// const navLinks = document.querySelectorAll('.navbar-links')
 const emailButton = document.querySelector('#email-btn')
 
+// console.log(nav2)
+// console.log(navListItems)
+// console.log(navLinks)
 // Responsive Mobile Menu
 toggleButton.addEventListener('click', () => {
 	nav2.classList.toggle('active');
 });
+// navListItems.addEventListener('click', () => {
+// 	nav2.classList.toggle('active');
+// });
+// navLinks.addEventListener('click', () => {
+// 	nav2.classList.toggle('active');
+// });
 
 const emailText = `<a class="contact-links" href="mailto:kathrynxwilk@gmail.com">
 kathrynxwilk@gmail.com

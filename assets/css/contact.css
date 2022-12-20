@@ -6,6 +6,7 @@
 	flex-direction: column;
 	margin: auto;
 	height: max-content;
+	align-items: center;
 }
 .contact-btn {
 	background-color: rgb(227, 235, 244);
@@ -15,6 +16,7 @@
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 1rem;
 	margin: 0.5rem 5rem;
+	width: 10rem;
 }
 .contact-btn:first-child {
 	margin-top: 2rem;
@@ -53,3 +55,10 @@ button.contact-btn:hover {
 	font-size: 0.5rem;
 } */
   /* end contact page styling */
+
+  @media (min-width: 414px) {
+
+	.contact-btn {
+		width: 12rem;
+	}
+}
