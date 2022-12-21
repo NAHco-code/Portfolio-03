@@ -38,3 +38,20 @@ div.about-page {
 	height: 2.5rem;
 	width: 2.5rem;
 }
+.about-page p a {
+	color: var(--bright-blue);
+	font-weight: 500;
+}
+.about-page p a:link {
+	color: var(--bright-blue);
+	font-weight: 500;
+}
+.about-page p a:visited {
+	color: var(--bright-blue);
+	font-weight: 500;
+}
+.about-page p a:hover {
+	color: var(--bright-blue);
+	font-weight: 600;
+	text-decoration: underline;
+}
