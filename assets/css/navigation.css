@@ -24,13 +24,6 @@ div.nav-1 {
 	margin: 0;
 	height: 100%;
 }
-a.home-link {
-	display: flex;
-	height: 90%;
-	padding: 0.25rem 0.25rem;
-	margin: 0.15rem;
-	border-radius: 50px;
-}
 .nav-2 {
 	display: flex;
 	flex: 2 1 60%;
@@ -45,14 +38,14 @@ a.home-link {
 	justify-content: flex-end;
 	width: 100%;
 }
+a.home-link {
+	display: flex;
+	height: 70%;
+	margin: .25rem;
+	border-radius: 50px;
+}
 a.navbar-links {
 	padding: 0.5rem;
-}
-.nav2 li:hover,
-.navbar-links:hover,
-a.home-link:hover,
-a#toggle-mobile-menu:hover {
-	background-color: var(--dark-hover);
 }
 a.navbar-links:link {
 	color: white;
@@ -64,6 +57,18 @@ a.navbar-links
 .nav-icons {
 	width: 1.5rem;
 	height: 1.5rem;
+}
+/* ----------- style on hover ----------- */
+.nav2 li:hover,
+.navbar-links:hover {
+	background-color: var(--dark-hover);
+}
+a.home-link:hover,
+a#toggle-mobile-menu:hover {
+	background-color: rgba(73, 225, 255, 0.3);
+}
+a.navbar-links:hover {
+	color: var(--bright-blue);
 }
 
 /* ----------- Responsive Menu ----------- */
