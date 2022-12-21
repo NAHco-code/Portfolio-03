@@ -34,6 +34,7 @@ h4:hover {
 	flex-direction: column;
 	justify-content: center;
 	height: max-content;
+	margin: auto;
 }
 .project-display {
 	display: flex;
@@ -46,38 +47,35 @@ h4:hover {
 	position: relative;
 	z-index: 2;
 	background-color: rgba(12, 42, 70, 0.85);
-	box-shadow: 2px 2px 2px 5px black;
+	/* box-shadow: 2px 2px 2px 5px black; */
 	padding: 1.5rem 1rem;
 	border-radius: 3px;
 	width: 100%;
-	margin: 0.5rem 0;
 }
 
+/* --------in development styling------- */
 .proj-display2 {
+	box-sizing: border-box;
 	position: absolute;
-	z-index: 0;
+		/* bottom: .5rem; */
+	z-index: 1;
 	border-radius: 3px;
-	display: flex;
+	/* display: flex; */
 		align-items: center;
 		justify-content: center;
-	width: 90%;
-	height: auto;
+	width: 24rem;
+	height: 24rem;
 	background-color: rgba(18, 63, 105, 0.379);
-	margin: auto;
-	padding: 0;
-}
-/*
-.proj-display2 img {
-	position: relative;
-	top: .5rem;
-	z-index: -1;
-	margin: auto;
-	padding: .5rem;
-	height: 44vh;
-} */
-.proj-display2 {
 	display: none;
 }
+
+.proj-display2 img {
+	position: relative;
+	z-index: -1;
+	margin: auto;
+}
+/* --------in development style end------- */
+
 .project-display:last-child {
 	margin-bottom: 1rem;
 }
@@ -112,22 +110,13 @@ ul.info-links {
 .proj-link {
 	margin-right: 0.8rem;
 }
-.proj-link:link {
-	/* color: rgb(197, 202, 255); */
-	color: var(--light-grey);
-}
+.proj-link:link,
 .proj-link:visited {
 	color: var(--light-grey);
 }
-.proj-link:hover {
-	color: var(--bright-blue);
-	/* text-shadow: 0px 0.5px 0.25px #ffffff; */
-	text-decoration: underline;
-}
+.proj-link:hover,
 .proj-link:focus {
 	color: var(--bright-blue);
-	/* text-shadow: 0px 0.5px 0.25px #ffffff; */
-	text-decoration: underline;
 }
 .proj-link i {
 	color: rgb(175, 195, 201);
@@ -172,10 +161,10 @@ ul.info-links li a {
 
 @media (min-width:480px) {
 	div.portfolio-sec {
-		padding-right: 4rem;
-		padding-left: 4rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
 	}
-	.project-display {
+	.project-display  {
 		padding: 3rem 2rem 2rem 2rem;
 	}
 	.proj-description {
@@ -219,7 +208,7 @@ ul.info-links li a {
 		font-size: 2.25rem;
 		padding-top: 0.2rem;
 	}
-	.project-display {
+	.project-display1 {
 		margin-bottom: 3rem;
 		/* padding: 3.5rem 2.5rem 2.5rem 2.5rem; */
 	}
