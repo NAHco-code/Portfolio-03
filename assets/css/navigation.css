@@ -21,9 +21,9 @@ div.nav-1 {
 	align-items: center;
 	position: absolute;
 	left: 0.5rem;
-	margin: 0;
-	height: 3rem;
-	width: 3rem;
+	height: 100%;
+	padding: auto;
+	margin: auto;
 }
 .nav-2 {
 	display: flex;
@@ -42,6 +42,7 @@ div.nav-1 {
 a.home-link {
 	display: flex;
 	height: 70%;
+	width: 77%;
 	margin: .25rem;
 	border-radius: 50px;
 }
