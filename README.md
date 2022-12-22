@@ -19,9 +19,13 @@ Sole contributor: k.wilkinson
 
 ### Tech
 
-- HTML && CSS
-- Foundation UI Framework
-- Image+Icon Manipulation Software
+- HTML & CSS
+- Foundation UI (phasing out)
+- jQuery Endless Scroll Plugin
+- Custom Images + Icons
+- VS Code
+- iTerm 2
+- Git + GitHub
 
 ## Visuals
 
