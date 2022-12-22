@@ -1,11 +1,15 @@
 /* CONTACT PAGE */
-
+#contact-page h1{
+	padding-top: 0;
+	padding-bottom: 0;
+}
 .contact-btn-wrapper {
 	display: flex;
-	flex-direction: column;
 	margin: auto;
 	height: max-content;
 	align-items: center;
+	position: static;
+	background-image: url(../images/main/cloud-fade-white.JPG);
 }
 .contact-btn {
 	background-color: rgb(227, 235, 244);
@@ -16,9 +20,6 @@
 	font-size: 1rem;
 	margin: 0.5rem 5rem;
 	width: 10rem;
-}
-.contact-btn:first-child {
-	margin-top: 2rem;
 }
 .contact-links {
 	border-radius: 5px;
@@ -39,17 +40,24 @@ a.contact-links:hover {
 	background-color: rgb(155, 185, 213);
 	color: rgb(181, 243, 255);
 }
+button.contact-btn {
+	margin: 1rem;
+}
 button.contact-btn:hover {
 	border-color: rgb(166, 240, 255);
 }
-#email-btn {
+button.contact-btn,
+a.contact-links {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	height: 3rem;
+
 }
 /* end contact page styling */
 
 @media (min-width: 414px) {
-	.contact-btn {
+	/* .contact-btn {
 		width: 12rem;
-	}
+	} */
 }

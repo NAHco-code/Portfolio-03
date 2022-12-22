@@ -57,7 +57,6 @@ footer {
   top: -120px;
   background-image: url(../images/main/cloud-fade-white.JPG);
   background-size: cover;
-  height: 50vw;
 }
 
 /* PAGE POSITIONING */
@@ -71,6 +70,28 @@ footer {
   margin: auto;
   border: none;
   box-shadow: none;
+}
+
+/* ----------- SCROLL ANIMATION ----------- */
+
+.block {
+  overflow: hidden;
+  width: 800px;
+  margin: 50px auto;
+  /* background: #fff; */
+  position: relative;
+  z-index: 2;
+}
+.animation {
+  width: auto;
+  height: 100px;
+  font-size: 0px;
+}
+.animation div {
+  display: inline-block;
+  width: auto;
+  float: none;
+  padding: 0 10px;
 }
 
 /* ----------- MEDIA QUERIES ----------- */
