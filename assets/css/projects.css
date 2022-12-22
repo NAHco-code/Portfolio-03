@@ -23,6 +23,14 @@ h4 {
 h4:hover {
 	color: rgb(139, 236, 255);
 }
+button,
+a, h4, i {
+	-webkit-transition: all .2s ease-in-out !important;
+	-moz-transition:    all .2s ease-in-out !important;
+	-o-transition:      all .2s ease-in-out !important;
+	-ms-transition:     all .2s ease-in-out !important;
+	transition:         all .2s ease-in-out !important;
+}
 .portfolio-page {
 	background-color: black;
 	color: white;
@@ -47,7 +55,6 @@ h4:hover {
 	position: relative;
 	z-index: 2;
 	background-color: rgba(12, 42, 70, 0.85);
-	/* box-shadow: 2px 2px 2px 5px black; */
 	padding: 1.5rem 1rem;
 	border-radius: 3px;
 	width: 100%;
@@ -84,14 +91,21 @@ h4:hover {
 	font-size: 0.75rem;
 	font-family: 'Open Sans', sans-serif;
 }
-.proj-tech {
+ul#tech-list1,
+ul#tech-list2,
+ul#tech-list3,
+ul#tech-list4,
+ul#tech-list5,
+ul#tech-list6 {
 	display: flex;
 	list-style: none;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-	margin: 0;
+	justify-content: center;
+	margin: 0 !important;
 	font-family: 'Noto Sans', monospace;
-	color: rgb(175, 195, 201);
+	color: rgba(90, 137, 166, 0.45);
+	margin-left: -0.95rem  !important;
+	margin-right: -0.95rem  !important;
+	margin-top: 1.25rem !important;
 }
 .proj-tech li {
 	margin-right: 1rem;
@@ -104,7 +118,6 @@ ul.info-links {
 	align-items:flex-start;
 	flex-direction: row-reverse;
 	margin: 0;
-	margin-top: 0.5rem;
 	font-size: 0.65rem;
 }
 .proj-link {
@@ -151,7 +164,7 @@ ul.info-links li a {
 		padding: 2rem 0.5rem 1.5rem 1rem;
 	}
 	ul.proj-tech li{
-		font-size: 0.85rem;
+		font-size: 1rem;
 	}
 	ul.info-links li {
 		font-size: 1.25rem;

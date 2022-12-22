@@ -205,7 +205,7 @@
                 that allows a business to effectively manage their WorkForce while streamlining
                 communication between administrators and their employees
               </p>
-              <ul class="proj-tech">
+              <ul id="tech-list1" class="proj-tech">
                 <li>React (+Hooks)</li>
                 <li>Express</li>
                 <li>NodeJS</li>
@@ -215,6 +215,9 @@
                 <li>Third Party API fetch</li>
                 <li>Material UI</li>
                 <li>Heroku</li>
+                <li>React (+Hooks)</li>
+                <li>Express</li>
+                <li>Mongoose</li>
               </ul>
               <ul class="info-links">
                 <li>
@@ -247,7 +250,11 @@
                 statistics. Providing users the ability to easily asses the current
                 COVID climate between multiple regions.
               </p>
-              <ul class="proj-tech">
+              <ul id="tech-list2" class="proj-tech">
+                <li>JavaScript/jQuery</li>
+                <li>Bootstrap</li>
+                <li>Third Party APIs</li>
+                <li>ChartJS</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript/jQuery</li>
@@ -285,7 +292,9 @@
                 to search the weather outlook for multiple cities in the US.
                 Includes current weather conditions and a 5 day forecast
               </p>
-              <ul class="proj-tech">
+              <ul id="tech-list3" class="proj-tech">
+                <li>Open Weather Map API</li>
+                <li>Local Storage</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -324,10 +333,15 @@
                 Employee Content-Management-System for managing company database information.
                 Enables you to view and manage departments, roles, and employees quickly and easily
               </p>
-              <ul class="proj-tech">
+              <ul id="tech-list4" class="proj-tech">
                 <li>NodeJS</li>
                 <li>Inquirer</li>
                 <li>mySQL</li>
+                <li>NodeJS</li>
+                <li>Inquirer</li>
+                <li>custom queries</li>
+                <li>mySQL</li>
+                <li>npm</li>
               </ul>
               <ul class='info-links'>
                 <li>
@@ -359,11 +373,17 @@
                 CLI application that prompts for a team’s employee information then generates
                 an HTML webpage displaying summaries for each employee within the team
               </p>
-              <ul class="proj-tech">
+              <ul id="tech-list5" class="proj-tech">
                 <li>MySQL</li>
                 <li>Jest</li>
                 <li>Bootstrap</li>
                 <li>Node.js</li>
+                <li>MySQL</li>
+                <li>Jest</li>
+                <li>Bootstrap</li>
+                <li>Node.js</li>
+                <li>MySQL</li>
+                <li>Jest</li>
               </ul>
               <ul class='info-links'>
                 <li>
@@ -394,7 +414,12 @@
                 of an e-commerce platform, including: a working Express.js API, sequelize models
                 interacting with a MySQL database, and working routes
               </p>
-              <ul class="proj-tech">
+              <ul id="tech-list6" class="proj-tech">
+                <li>MVC Structure</li>
+                <li>MySQL</li>
+                <li>Sequelize</li>
+                <li>Express</li>
+                <li>Insomnia</li>
                 <li>MVC Structure</li>
                 <li>MySQL</li>
                 <li>Sequelize</li>
@@ -450,6 +475,26 @@
               Github
             </a>
           </button>
+          <button id="email-btn" class="contact-btn">
+            <a class="contact-links" href="mailto:kathrynxwilk@gmail.com">
+              Email
+            </a>
+          </button>
+          <button class="contact-btn">
+            <a id="resume-btn" class="contact-links" href="./assets/resume/k.wilkinson-resume.pdf" target="./assets/resume/k.wilkinson-resume.pdf">
+              Resume
+            </a>
+          </button>
+          <button class="contact-btn">
+            <a id="linkedin-btn" class="contact-links" href='https://www.linkedin.com/in/kwilkinsonxx/' target='_blank'>
+              LinkedIn
+            </a>
+          </button>
+          <button class="contact-btn">
+            <a id="github-btn" class="contact-links" href='https://github.com/kathrynwilkinson/' target='_blank'>
+              Github
+            </a>
+          </button>
         </div>
 
         <!-- click to copy codepen  -->
@@ -471,10 +516,52 @@
       $(window).load(function () {
         $("#buttons").endlessScroll({
           width: '100vw',
-          steps: -2,
-          speed: 40,
-          mousestop: false
-	});
+          steps: -3,
+          speed: 45,
+          mousestop: true
+	      });
+        $("#tech-list1").endlessScroll({
+          width: 'auto',
+          height: '2rem',
+          steps: -1,
+          speed: 25,
+          mousestop: true
+	      });
+        $("#tech-list2").endlessScroll({
+          width: 'auto',
+          height: '2rem',
+          steps: 1,
+          speed: 10,
+          mousestop: true
+	      });
+        $("#tech-list3").endlessScroll({
+          width: 'auto',
+          height: '2rem',
+          steps: -1,
+          speed: 15,
+          mousestop: true
+	      });
+        $("#tech-list4").endlessScroll({
+          width: 'auto',
+          height: '2rem',
+          steps: 1,
+          speed: 22,
+          mousestop: true
+	      });
+        $("#tech-list5").endlessScroll({
+          width: 'auto',
+          height: '2rem',
+          steps: -1,
+          speed: 9,
+          mousestop: true
+	      });
+        $("#tech-list6").endlessScroll({
+          width: 'auto',
+          height: '2rem',
+          steps: 1,
+          speed: 15,
+          mousestop: true
+	      });
       });
   </script>
   <script src="./assets/js/script.js"></script>
