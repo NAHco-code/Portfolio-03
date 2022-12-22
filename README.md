@@ -1,23 +1,25 @@
-# Web Developer Portfolio
+# K Wilkinson - Web Developer Portfolio
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 
-Web developer portfolio. Check it out! 
+Check out the source code!
 
-## Table of Contents
+- [Source Code](https://github.com/kathrynwilkinson/Portfolio.git)
+- [Deployed on GitHub pages](https://kathrynwilkinson.github.io/Portfolio/)
 
-- [Description](#web-developer-portfolio)
+<!-- ## Table of Contents
+
 - [Contributing](#contributing)
 - [Technologies](#tech)
 - [Visuals](#visuals)
 - [Contact Me](#questions)
-- [License](#license)
+- [License](#license) -->
 
 ## Contributing
 
-Sole contributor: k.wilkinson
+Sole Contributor: Kathryn Wilkinson
 
-### Tech
+## Tech
 
 - HTML & CSS
 - Foundation UI (phasing out)
@@ -31,9 +33,6 @@ Sole contributor: k.wilkinson
 
 ![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
 ![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png)
-
-- [Deployed on GitHub pages](https://kathrynwilkinson.github.io/Portfolio/)
-- [Source Code](https://github.com/kathrynwilkinson/Portfolio.git)
 
 ## Questions?
 
