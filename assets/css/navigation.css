@@ -25,6 +25,7 @@ div.nav-1 {
 	width: 20%;
 	padding: auto;
 	margin: auto;
+	margin-left: 0;
 }
 .nav-2 {
 	display: flex;
