@@ -1,12 +1,12 @@
-# Professional Portfolio
+# Web Developer Portfolio
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 
-Professional portfolio
+Web developer portfolio. Check it out! 
 
 ## Table of Contents
 
-- [Description](#professional-portfolio)
+- [Description](#web-developer-portfolio)
 - [Contributing](#contributing)
 - [Technologies](#tech)
 - [Visuals](#visuals)
