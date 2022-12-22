@@ -29,14 +29,11 @@ Sole contributor: k.wilkinson
 
 ## Visuals
 
-![screenshot](./assets/images/readme-screenshots/home.PNG)
-![screenshot](./assets/images/readme-screenshots/about.PNG)
-![screenshot](./assets/images/readme-screenshots/portfolio.PNG)
-![screenshot](./assets/images/readme-screenshots/contact-header.PNG)
-![screenshot](./assets/images/readme-screenshots/contact-footer.PNG)
+![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
+![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png)
 
-- [ViewLive](https://kathrynwilkinson.github.io/Portfolio/)
-- [ViewCode](https://github.com/kathrynwilkinson/Portfolio.git)
+- [Deployed on GitHub pages](https://kathrynwilkinson.github.io/Portfolio/)
+- [Source Code](https://github.com/kathrynwilkinson/Portfolio.git)
 
 ## Questions?
 
