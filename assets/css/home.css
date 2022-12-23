@@ -93,15 +93,17 @@ p.homepage-text {
 #greeting-blurb a:visited{
 	color: var(--bright-blue);
 }
-.homepage-btn-wrapper,
-.homepage-btn-wrapper button {
+
+/* -----style buttons on Home page and About page----- */
+.home-about-btn-wrapper,
+.home-about-btn-wrapper button {
 	display: flex;
 }
-.homepage-btn-wrapper button {
+.home-about-btn-wrapper button {
 	justify-content: center;
 	margin-right: 1rem;
 }
-#homepage-feature button a {
+.home-about-btn-wrapper button a {
 	color: var(--bright-blue);
 	border: 1px solid var(--bright-blue);
 	border-radius: 5px;
@@ -111,7 +113,7 @@ p.homepage-text {
 	position: relative;
 	  top: 1rem;
 }
-#homepage-feature button a:hover {
+.home-about-btn-wrapper button a:hover {
 	background-color: var(--dark-hover);
 }
 

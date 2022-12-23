@@ -2,6 +2,7 @@
 #contact-page h1{
 	padding-top: 0;
 	padding-bottom: 0;
+	margin-bottom: 2.25rem;
 }
 .contact-btn-wrapper {
 	display: flex;
@@ -13,15 +14,14 @@
 }
 .contact-btn {
 	background-color: rgb(227, 235, 244);
-	color: var(--bright-blue);
 	border: 1px solid var(--bright-blue);
 	border-radius: 5px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 1rem;
-	margin: 0.5rem 5rem;
 	width: 10rem;
 }
 .contact-links {
+	border: 1px solid var(--bright-blue);
 	border-radius: 5px;
 	width: 100%;
 	height: 100%;
@@ -32,8 +32,7 @@
 	color: rgb(36, 190, 221);
 	font-weight: 600;
 }
-.contact-links:link,
-.contact-links:visited {
+a.contact-links:link {
 	color: rgb(36, 190, 221);
 }
 a.contact-links:hover {
@@ -41,10 +40,7 @@ a.contact-links:hover {
 	color: rgb(181, 243, 255);
 }
 button.contact-btn {
-	margin: 1rem;
-}
-button.contact-btn:hover {
-	border-color: rgb(166, 240, 255);
+	margin: 0.25rem .5rem 0 0;
 }
 button.contact-btn,
 a.contact-links {
@@ -52,12 +48,27 @@ a.contact-links {
 	justify-content: center;
 	align-items: center;
 	height: 3rem;
-
+}
+.contact-btn-wrapper2 .contact-btn {
+	background-color: rgb(155, 185, 213);
+	color: rgb(181, 243, 255);
+}
+.contact-btn-wrapper2 a.contact-links:visited,
+.contact-btn-wrapper2 a.contact-links,
+.contact-btn-wrapper2 a.contact-links:link {
+	background-color: rgb(155, 185, 213);
+	color: rgb(181, 243, 255);
+}
+.contact-btn-wrapper2 a.contact-links:hover {
+	background-color: rgb(227, 235, 244);
+	color: rgb(36, 190, 221);
+}
+.phone {
+	position: absolute;
+	top: 1rem;
+	right: 0;
+	max-width: 80vw;
+	max-height: 10rem;
+	opacity: .75
 }
 /* end contact page styling */
-
-@media (min-width: 414px) {
-	/* .contact-btn {
-		width: 12rem;
-	} */
-}
