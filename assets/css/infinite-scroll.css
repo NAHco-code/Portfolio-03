@@ -1,12 +1,10 @@
 
-/* element found on user agent stylesheet - had to correct column positioning*/
+/* `nobr` element found in dev tools from user agent stylesheet - correct column positioning */
 nobr {
   display: flex;
   width: 100%;
 }
 #buttons {
-  /* margin-bottom: 5rem;
-  margin-top: 5rem; */
   position: relative;
   overflow:visible;
   z-index: 3;
