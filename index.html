@@ -11,6 +11,9 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <!-- Font Awesome 6.2.0 PRO -->
+  <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet"
+  type="text/css" />
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +23,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Libre+Franklin&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Rubik&family=Trirong&display=swap"
     rel="stylesheet">
-  <!-- Font Awesome 6.2.0 PRO -->
-  <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet"
-    type="text/css" />
   <!-- Personal CSS -->
   <link rel="stylesheet" href="./assets/css/background-img.css">
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -35,16 +35,13 @@
   <link rel="stylesheet" href="./assets/css/footer.css">
   <link rel="stylesheet" href="./assets/css/media.css">
   <link rel="stylesheet" href="./assets/css/infinite-scroll.css">
-
 </head>
 
 <body>
+  <!-- Necessary placement for jQuery and Endless Scroll links -->
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
   <script src="./assets/js/scroll-plugin/endless_scroll_min.js" type="text/javascript"></script>
-
-
-  <!-- *** original code src: foundation ui - html template *** -->
 
   <!-- Home Page: Home-link reference -->
   <div id="back-to-top">
@@ -68,8 +65,6 @@
             <li class="navbar-li"><a href="#about-page" class="navbar-links">about</a></li>
             <li class="navbar-li"><a href="#portfolio-page" class="navbar-links">projects</a></li>
             <li class="navbar-li"><a href="#contact-page" class="navbar-links">contact</a></li>
-            <!-- <li class="navbar-li"><a href="./assets/resume/k.wilkinson-resume1.pdf"
-                target="./assets/resume/k.wilkinson-resume1.pdf" class="navbar-links">resume</a></li> -->
           </ul>
         </div>
       </nav>
@@ -157,11 +152,6 @@
             View my Resume
           </a>
         </button>
-        <!-- <button class="about-btn">
-          <a href="https://github.com/GenUSA-Learners" target="_blank">
-            GitHub Org
-          </a>
-        </button> -->
       </div>
 
       <p>
@@ -222,8 +212,6 @@
       <!-- Portfolio Page: Header section -->
       <div class="padding">
         <h1>projects.</h1>
-        <!-- TODO: accordion + blurb  -->
-        <!-- <p></p> -->
       </div>
 
       <!-- Portfolio Page: Projects section -->
@@ -272,10 +260,6 @@
               </li>
             </ul>
           </div>
-          <!-- <div class="proj-display2">
-              <img id="fleet-manager" alt="" src="assets/images/projects/fleet-manager/custom-workforce-manager-admin-dash.PNG"/>
-            </div> -->
-
         </div>
 
         <!--- Project 2 --->
@@ -316,10 +300,6 @@
               </li>
             </ul>
           </div>
-
-          <!-- <div class="proj-display2">
-              <img alt="" src="assets/images/projects/covid-tracker/covid-woke-landing.png" />
-            </div> -->
         </div>
 
         <!--- Project 3 --->
@@ -357,11 +337,6 @@
               </li>
             </ul>
           </div>
-          <!-- <div class="proj-display2">
-              <img alt="" src="assets/images/projects/weather/weather-app.PNG" />
-              <img alt="" src="assets/images/projects/weather/weather-app-search.PNG" />
-            </div> -->
-
         </div>
 
         <!--- Project 4 --->
@@ -399,10 +374,6 @@
               </li>
             </ul>
           </div>
-          <!-- <div class="proj-display2">
-              <img alt="" src="assets/images/projects/sql-cms/schema.png" />
-            </div> -->
-
         </div>
 
         <!--- Project 5 --->
@@ -441,9 +412,6 @@
               </li>
             </ul>
           </div>
-          <!-- <div class="proj-display2">
-              <img alt="" src="assets/images/projects/team-profile-gen/team-profile.PNG" />
-            </div> -->
         </div>
 
         <!--- Project 6 --->
@@ -483,9 +451,6 @@
               </li>
             </ul>
           </div>
-          <!-- <div class="proj-display2">
-              <img alt="" src="assets/images/projects/e-commerce-routing/routing.PNG" />
-            </div> -->
         </div><!-- end project-6 card -->
       </div><!-- end project section -->
     </div><!-- end portfolio page -->
@@ -566,8 +531,6 @@
           </a>
         </button>
       </div>
-      <!-- click to copy codepen  -->
-      <!-- https://codepen.io/eclarrrk/pen/ZZywZv -->
     </div><!-- end contact page -->
 
     <!-- FOOTER -->
@@ -580,6 +543,7 @@
       <img class="phone" src="./assets/images/contact/phoneoffhook.png" alt=""/>
     </footer><!-- end footer -->
 
+    <!-- Endless Scroll JS - Placement in HTML necessary for functionality -->
     <script type="text/javascript">
       $( window ).load( function () {
 
