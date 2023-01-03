@@ -1,0 +1,73 @@
+/* CONTACT Section Style */
+#contact-page h1{
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 2.25rem;
+}
+.contact-btn-wrapper {
+	display: flex;
+	margin: auto;
+	height: max-content;
+	align-items: center;
+	position: static;
+	background-image: url(../images/main/cloud-fade-white.JPG);
+}
+.contact-btn {
+	background-color: rgb(227, 235, 244);
+	border: 1px solid var(--bright-blue);
+	border-radius: 5px;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 1rem;
+	width: 10rem;
+}
+.contact-links {
+	border: 1px solid var(--bright-blue);
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	padding: 0.75rem;
+	color: rgb(36, 190, 221);
+	font-weight: 600;
+}
+a.contact-links:link {
+	color: rgb(36, 190, 221);
+}
+a.contact-links:hover {
+	background-color: rgb(155, 185, 213);
+	color: rgb(181, 243, 255);
+}
+button.contact-btn {
+	margin: 0.25rem .5rem 0 0;
+}
+button.contact-btn,
+a.contact-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3rem;
+}
+.contact-btn-wrapper2 .contact-btn {
+	background-color: rgb(155, 185, 213);
+	color: rgb(181, 243, 255);
+}
+.contact-btn-wrapper2 a.contact-links:visited,
+.contact-btn-wrapper2 a.contact-links,
+.contact-btn-wrapper2 a.contact-links:link {
+	background-color: rgb(155, 185, 213);
+	color: rgb(181, 243, 255);
+}
+.contact-btn-wrapper2 a.contact-links:hover {
+	background-color: rgb(227, 235, 244);
+	color: rgb(36, 190, 221);
+}
+.phone {
+	position: absolute;
+	top: 1rem;
+	right: 0;
+	max-width: 80vw;
+	max-height: 10rem;
+	opacity: .75
+}

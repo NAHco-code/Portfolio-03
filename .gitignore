@@ -1,2 +1,12 @@
 .DS_Store
 .vscode
+
+project-notes.md
+proj-descs.md
+media-queries.md
+
+assets/icons/not-in-use/
+assets/images/not-in-use/
+
+assets/css/not-in-use/
+assets/js/foundation-js

@@ -1,0 +1,89 @@
+/* ABOUT Section style */
+
+img#about-page {
+	background-color: white;
+	display: flex;
+}
+div.about-page {
+	background-color: white;
+}
+.recent-tech-list {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto Mono', monospace;
+	list-style: none;
+	position: relative;
+	margin: 0;
+	margin-left: 1rem;
+}
+.tech-list-wrappers {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.tech-li {
+	position: relative;
+}
+.tech-li span {
+	position: absolute;
+	display: block;
+	background-image: url(../icons/arrows/arrowhead.png);
+	background-repeat: no-repeat;
+	background-size: 0.5rem;
+	background-position: 0 .3em;
+	text-indent: -1rem;
+	left: -1rem;
+	top: .25rem;
+	height: 2.5rem;
+	width: 2.5rem;
+}
+.about-page p a {
+	color: var(--bright-blue);
+	font-weight: 500;
+}
+.about-page p a:link {
+	color: var(--bright-blue);
+	font-weight: 500;
+}
+.about-page p a:visited {
+	color: var(--bright-blue);
+	font-weight: 500;
+}
+.about-page p a:hover {
+	color: var(--bright-blue);
+	font-weight: 600;
+	text-decoration: underline;
+}
+#about-p-lastchild {
+	margin-bottom: 2rem;
+}
+/* adjust spacing above buttons on About page */
+#about-btn-wrapper {
+	margin-bottom: 1rem;
+
+}
+#about-btn-wrapper button a{
+	background-color: rgb(227, 235, 244);
+	color: rgb(36, 190, 221);
+	top: 0;
+	font-size: .75rem;
+	font-weight: 600;
+}
+#about-btn-wrapper button a:hover {
+	background-color: rgb(155, 185, 213);
+	color: rgb(181, 243, 255);
+}
+
+@media (min-width: 426px) {
+	.recent-tech-list {
+		flex-direction: row;
+		margin: 0;
+	}
+	#tech-list-1 {
+		margin-left: 1rem;
+	}
+	#tech-list-1,
+	#tech-list-2 {
+		margin-right: 2.5rem;
+	}
+}

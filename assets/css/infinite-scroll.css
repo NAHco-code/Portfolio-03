@@ -1,0 +1,32 @@
+
+/* `nobr` element found in dev tools from user agent stylesheet - correct column positioning */
+nobr {
+  display: flex;
+  width: 100%;
+}
+#buttons {
+  position: relative;
+  overflow:visible;
+  z-index: 3;
+}
+#buttons .contact-btn {
+  position: relative;
+}
+.contact-links {
+  height: 100%;
+}
+.carousel__track-container {
+  background-color: rgba(224, 232, 254, 0.436);
+  height: 100%;
+}
+.carousel__track {
+  list-style: none;
+  margin:0px auto 0px auto;
+  padding: 0;
+}
+.carousel__track img {
+  border:0px;
+  border-left:2px solid #555555;
+  width: 10rem;
+  display: flex !important;
+}

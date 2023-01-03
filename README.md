@@ -1,35 +1,42 @@
-# Professional Portfolio
+# K Wilkinson - Web Developer Portfolio
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 
-Full stack web developer with a passion for UX/UI design, eager to contribute developed knowledge in a front-end role. An innovative and judicious approach complement design skills enabling craft and optimization of elegant, user-focused websites and applications. Backgrounds in fine art, social work and hospitality industries, provide in-depth knowledge of dynamic team collaboration in demanding environments, difficult clients, sensitive information & business objectives, as well as sales, marketing, and design.
+Professional web developer portfolio showcasing skills in `UX/UI design`, including `responsive styling` and `animation` using `jQuery plugins.` Developed from scratch.
 
-## Table of Contents
-
-- [Description](#professional-portfolio)
-- [Contributing](#contributing)
-- [Technologies](#tech)
-- [Visuals](#visuals)
-- [Contact Me](#questions)
-- [License](#license)
+- [Source Code](https://github.com/kathrynwilkinson/Portfolio.git)
+- [Deployed on GitHub pages](https://kathrynwilkinson.github.io/Portfolio/)
 
 ## Contributing
 
-Sole contributor: k.wilkinson
+Sole Contributor: Kathryn Wilkinson
 
-### Tech
+## Tech
 
-The Foundation framework
+- HTML & CSS
+- Foundation UI css (phasing out)
+- jQuery Endless Scroll Plugin
+- Custom Images + Icons
+- VS Code
+- iTerm 2
+- Git + GitHub
 
 ## Visuals
 
-![screenshot](./assets/images/proj-screenshots/home.PNG)
-![screenshot](./assets/images/proj-screenshots/about.PNG)
-![screenshot](./assets/images/proj-screenshots/portfolio.PNG)
-![screenshot](./assets/images/proj-screenshots/contact-header.PNG)
-![screenshot](./assets/images/proj-screenshots/contact-footer.PNG)
+### Mobile
 
-[ViewLive](https://kathrynwilkinson.github.io/Portfolio/) -  - [ViewCode](https://github.com/kathrynwilkinson/Portfolio.git)
+![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
+![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png)
+<!-- 
+### Tablet
+
+![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
+![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png)
+
+### Desktop
+
+![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
+![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png) -->
 
 ## Questions?
 
@@ -45,9 +52,3 @@ This project is licensed under the MIT License.
 For more information, please visit: [MIT Explained](https://choosealicense.com/licenses/mit/)
 
 &copy; 2021 k.wilkinson
-
-<!-- ### Deployment Notes:
-
-- github pages - run { } to update deployment ?
-
--->
