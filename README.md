@@ -1,8 +1,8 @@
-# K Wilkinson - Web Developer Portfolio
+# Kathryn Wilkinson - Web Developer Portfolio
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 
-Professional web developer portfolio showcasing skills in `UX/UI design`, including `responsive styling` and `animation` using `jQuery plugins.` Developed from scratch.
+Professional web developer portfolio *developed from scratch* showcasing skills in `front end development,` including `responsive styling` and `animation` using custom CSS and JS, along with the `jQuery plugins.`
 
 - [Source Code](https://github.com/kathrynwilkinson/Portfolio.git)
 - [Deployed on GitHub pages](https://kathrynwilkinson.github.io/Portfolio/)
@@ -27,16 +27,6 @@ Sole Contributor: Kathryn Wilkinson
 
 ![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
 ![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png)
-<!-- 
-### Tablet
-
-![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
-![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png)
-
-### Desktop
-
-![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
-![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png) -->
 
 ## Questions?
 
