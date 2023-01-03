@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 
-Professional web developer portfolio showcasing skills in `UX/UI design`, including `responsive styling` and `animation` using `jQuery plugins`. Original HTML modified from Foundation UI Template - in the process of phasing out Foundation UI stylesheets and updating the UI with custom CSS. Check out the source code!
+Professional web developer portfolio showcasing skills in `UX/UI design`, including `responsive styling` and `animation` using `jQuery plugins`. Developed from scratch.
 
 - [Source Code](https://github.com/kathrynwilkinson/Portfolio.git)
 - [Deployed on GitHub pages](https://kathrynwilkinson.github.io/Portfolio/)
