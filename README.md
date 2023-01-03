@@ -28,6 +28,17 @@ Sole Contributor: Kathryn Wilkinson
 ![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
 ![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png)
 
+<!--
+### Tablet
+
+![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
+![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png)
+
+### Desktop
+
+![screenshot](./assets/images/readme-screenshots/portfolio1-mobile.png)
+![screenshot](./assets/images/readme-screenshots/portfolio2-mobile.png) -->
+
 ## Questions?
 
 Please feel free to contact me with any questions via email or LinkedIn.
