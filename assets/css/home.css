@@ -84,14 +84,18 @@ p.homepage-text {
 	font-weight: 400;
 	font-size: 0.85rem;
 }
-#greeting-blurb a{
+#greeting-blurb a,
+#greeting-blurb a:link,
+#greeting-blurb a:visited {
 	color: var(--bright-blue);
 }
-#greeting-blurb a:link{
-	color: var(--bright-blue);
+#greeting-blurb a#muted-link,
+#greeting-blurb a#muted-link:visited {
+	color: rgb(116, 173, 185);
 }
-#greeting-blurb a:visited{
-	color: var(--bright-blue);
+#greeting-blurb a:hover,
+#greeting-blurb a#muted-link:hover {
+	color: var(--lightest-grey);
 }
 
 /* -----style buttons on Home page and About page----- */
