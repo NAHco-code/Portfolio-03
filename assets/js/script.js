@@ -1,10 +1,14 @@
 
 // Responsive Mobile Menu
 const toggleButton = document.querySelector('.nav').children[1];
-const nav2 = document.querySelector('.nav').children[2];
+const burger = document.querySelector('.nav').children[2];
+const nav2 = document.querySelector('.nav-2');
 
 toggleButton.addEventListener('click', () => {
-	nav2.classList.toggle('active');
+	burger.classList.toggle('active');
+});
+nav2.addEventListener('click', () => {
+	burger.classList.toggle('active');
 });
 
 // Email Button on Contact page
