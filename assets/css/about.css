@@ -37,6 +37,9 @@ div.about-page {
 	height: 2.5rem;
 	width: 2.5rem;
 }
+#tech-list-4 {
+	margin-left: 3rem;
+}
 .about-page p a {
 	color: var(--bright-blue);
 	font-weight: 500;
